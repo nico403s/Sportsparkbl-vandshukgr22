@@ -42,6 +42,10 @@ body{
     width: 85px;
     height: 30px;
     margin-bottom: -16px;
-    border: 2px solid #444;
+    border: 1px solid #606060;
 }
 
+.button:hover {
+  cursor: pointer;
+    border: 2px solid #606060;
+}
