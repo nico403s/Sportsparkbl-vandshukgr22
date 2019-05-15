@@ -1,0 +1,47 @@
+body{
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+.gallery {
+  margin: 5px;
+  border: 2px solid #606060;
+    border: 1px solid #777;
+  float: left;
+  width: 180px;
+  border-radius: 15px;
+}
+
+.gallery:hover {
+  cursor: pointer;
+    border: 2px solid #606060;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+   border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 1px;
+}
+
+.beskrivelse {
+  padding: 15px;
+  text-align: center;
+}
+
+.button {
+    color: white;
+    background-color: #0E8CC4;
+    text-align: center;
+    display: block;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+    border-radius: 15px;
+    width: 85px;
+    height: 30px;
+    margin-bottom: -16px;
+    border: 2px solid #444;
+}
+
