@@ -56,3 +56,23 @@ transition: background .2s ease-in-out;
 font-size: .8rem;
 font-size: 16px;
 }
+
+#lejrskole_video_containter{
+  background-color: #99ccff;
+}
+
+#video_billede_container{
+  float: left;
+}
+
+#video_billede_container img{
+}
+
+#lejrskole_tekst_container{
+  float: left;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+  width: 40%;
+  margin-left: 5%;
+}
