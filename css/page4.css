@@ -218,21 +218,19 @@ font-size: 16px;
     border: 1px solid #606060;
 }
 
-.button:hover {
+.button:hover{
   cursor: pointer;
     border: 2px solid #606060;
 }
 
-.linje {
+.linje{
   background-color: #0E8CC4;
     width: 3px;
     float: right;
     height: 93vh;
-    
-    
-    
-    
+   
 }
+
 .drop_zone{
     float: right;
     background-color: #0E8CC4; 
@@ -244,9 +242,9 @@ font-size: 16px;
     box-shadow: 2px 2px 2px 2px #d6d6d6;
     padding: 8px;
     font-size: 18px;
-    margin-top: 7%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-right: 4%;
 }
 
 
