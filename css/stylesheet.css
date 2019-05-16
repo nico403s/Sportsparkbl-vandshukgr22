@@ -95,11 +95,43 @@ font-size: 24px;
   z-index: 0;
 }
 
+.lejrskole_tilbud_container{
+  overflow: hidden;
+}
+
 #lejrskole_tilbud_headline{
-  position: relative;
+  position: absolute;
   z-index: 1;
-  float: right;
   font-size: 100px;
-  margin-top: 125px;
-  margin-right: 200px;
+  right: 10%;
+}
+
+.book_container{
+  height: 800px;
+  width: 250px;
+  float: left;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 200px;
+}
+
+.book_img_badeland{
+  background-image: url("../img/badeland2.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.book_img_gaming{
+  background-image: url("../img/gaming.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.book_img_spring{
+  background-image: url("../img/springcenterdreng.jpeg");
+  background-size: cover;
+  height: 200px;
+  width: 100%;
 }
