@@ -3,9 +3,24 @@ body{
     
 }
 
+.bestil {
+    
+    width: 90%;
+    float: left;  
+    margin-top: 180px;
+    margin-left: 220px;
+    
+}
+
+.bestil_2 {
+   width: 90%;
+    float: left; 
+    margin-top: 100px;
+    
+}
 
 .gallery {
-    padding: 20px;
+    padding: 0px;
     margin: 15px;
     border: 2px solid #606060;
     border: 1px solid #777;
@@ -15,7 +30,25 @@ body{
     height: 165px
 }
 
+
+.gallery_2 {
+    padding: 0px;
+    margin: 15px;
+    border: 2px solid #606060;
+    border: 1px solid #777;
+    float: left;
+    width: 180px;
+    border-radius: 15px;
+    height: 165px;
+    margin-top: 30px;
+}
+
 .gallery:hover {
+  cursor: pointer;
+    border: 2px solid #606060;
+}
+
+.gallery_2:hover {
   cursor: pointer;
     border: 2px solid #606060;
 }
@@ -26,6 +59,12 @@ body{
    border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     margin-bottom: 1px;
+}
+
+
+.gallery_2:hover {
+  cursor: pointer;
+    border: 2px solid #606060;
 }
 
 .badelandimg{
@@ -60,14 +99,7 @@ body{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-.lobimg{
-    width: 100%;
-    height: 100px;
-    background-image:url(../img/lob.jpg);
-    background-size: cover;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
+
 .springimg{
     width: 100%;
     height: 100px;
