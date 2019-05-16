@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#square{
+	width: 90%;
+	height: 700px;
+	background-color: mediumblue;
+	margin: 0 auto;
+}
+
+
+/*------------------- Footer ----------------------*/
+
+footer{
+	width: 100%;
+	background-color: #0E8CC4;
+	padding: 20px 0 280px 0;
+}
+
+footer p{
+	color: #FFF;
+	font-family: 'Lato', sans-serif;
+}
+
+#findos{
+	text-align: center;
+	font-weight: 700;
+	font-size: 18px;
+}
+
+#facebooklogo{
+	position: absolute;
+	margin-left: 41%;
+	margin-top: 2%;
+}
+
+#facebooklogo img{
+	width: 90px;
+	height: auto;
+	
+}
+
+#instagramlogo{
+	position: absolute;
+	margin-left: 53%;
+	margin-top: 2%;
+}
+
+#instagramlogo img{
+	width: 90px;
+	height: auto;
+}
+
+#kontakt1{
+	margin-top: 170px;
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+#kontakt2{
+	margin-top: 170px;
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+#kontakt3{
+	margin-top: 170px;
+	float: left;
+	width: 25%;
+	text-align: center;
+}
+
+#kontakt4{
+	margin-top: 170px;
+	float: left;
+	width: 25%;
+	text-align: center;
+}
