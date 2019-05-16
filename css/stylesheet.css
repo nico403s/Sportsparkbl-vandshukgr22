@@ -1,9 +1,11 @@
 body, html{
   margin: 0;
   padding: 0;
-font-family: 'Lato', sans-serif;
+font-family: 'Exo 2', 'Lato', sans-serif;
+font-size: 24px;
 }
 
+/*Navbar*/
 .navigation{
   background: #0d8cc4;
 }
@@ -44,36 +46,60 @@ font-family: 'Lato', sans-serif;
  color: white;
  margin-left: auto;
  margin-right: auto;
- white-space: nowrap;;
+ white-space: nowrap;
 }
 
 .menu a{
   color: white;
-text-decoration: none;
-padding: 1rem 0;
-display: block;
--webkit-transition: background .2s ease-in-out;
-transition: background .2s ease-in-out;
-font-size: .8rem;
-font-size: 16px;
+ text-decoration: none;
+ padding: 1rem 0;
+ display: block;
+ webkit-transition: background .2s ease-in-out;
+ transition: background .2s ease-in-out;
+ font-size: .8rem;
+ font-size: 16px;
 }
 
 #lejrskole_video_containter{
+  overflow: hidden;
+  width: 100%;
   background-color: #99ccff;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-#video_billede_container{
+#lejrskole_video_containter img{
   float: left;
-}
-
-#video_billede_container img{
+  width: 30%;
+  margin-left: 5%;
 }
 
 #lejrskole_tekst_container{
   float: left;
-  padding-top: 40px;
-  padding-bottom: 40px;
   color: white;
   width: 40%;
   margin-left: 5%;
+}
+
+#lejrskole_tekst_container h1{
+
+}
+
+.blue_square{
+  width: 40%;
+  margin-top: 100px;
+  height: 120px;
+  background-color: #0E8CC4;
+  position: absolute;
+  right: 0;
+  z-index: 0;
+}
+
+#lejrskole_tilbud_headline{
+  position: relative;
+  z-index: 1;
+  float: right;
+  font-size: 100px;
+  margin-top: 125px;
+  margin-right: 200px;
 }
