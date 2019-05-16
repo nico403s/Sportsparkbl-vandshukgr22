@@ -228,18 +228,25 @@ font-size: 16px;
     width: 3px;
     float: right;
     height: 93vh;
-    margin-right: 27%;
+    
     
     
     
 }
-#drop_zone {
-    background-color: #EEE; 
-    border: #999 1px solid;
-    width: 280px; 
-    height: 200px;
+.drop_zone{
+    float: right;
+    background-color: #0E8CC4; 
+    opacity: 0.2;
+    border: #6d6d6d 1px solid;
+    width: 180px;
+    border-radius: 15px;
+    height: 165px;
+    box-shadow: 2px 2px 2px 2px #d6d6d6;
     padding: 8px;
     font-size: 18px;
+    margin-top: 7%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
