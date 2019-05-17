@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/page4.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    
+    <script src="scripts/drag.js" defer></script>
 </head>
 
 <body>
@@ -59,29 +59,32 @@
             <div class="beskrivelse">Badeland</div>
             <button class="button">Book</button>
         </div>
-    </div>     
-   <div id="fodbold" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">   
+    </div>
+<span class="mellem"></span>    
+<div id="fodbold" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">   
         <div class="fodbold">
            <div class="fodboldimg"></div> 
             <div class="beskrivelse">Fodbold</div>
         <button class="button">Book</button>
     </div>
-
   </div>  
-    <div id="golf" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">   
+   
+<div id="golf" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">   
         <div class="golf">
            <div class="golfimg"></div> 
             <div class="beskrivelse">Golf</div>
             <button class="button">Book</button>
         </div>
     </div>
-    <div id="tennis" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">   
+    
+<div id="tennis" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">   
             <div class="tennis">
                <div class="tennisimg"></div> 
                 <div class="beskrivelse">Tennis</div>
                 <button class="button">Book</button>
         </div>
-    </div>  
+    </div> 
+     
 <div class="bestil_2">    
    <div id="tennis" class="gallery_2" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">  
             <div class="spring">
@@ -90,14 +93,16 @@
                 <button class="button">Book</button>
         </div>
     </div>
-        <div id="gaming" class="gallery_2" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">  
+       
+<div id="gaming" class="gallery_2" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">  
                 <div class="Gaming">
                <div class="gamingimg"></div>
                 <div class="beskrivelse">Gaming</div>
                 <button class="button">Book</button>
         </div>
     </div>
-        <div id="handbold" class="gallery_2" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">  
+       
+<div id="handbold" class="gallery_2" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">  
   
             <div class="handbold">
                <div class="halimg"></div>
@@ -105,27 +110,24 @@
                 <button class="button">Book</button>
         </div>
     </div>
-       <div id="havet" class="gallery_2" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">  
-  
+       
+<div id="havet" class="gallery_2" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">    
             <div class="havet">
                <div class="havetimg"></div> 
                 <div class="beskrivelse">Havet</div>
                 <button class="button">Book</button>
         </div>
     </div>
+ 
  </div>   
  </div> 
  
  
- 
+<h2 id="app_status">App status...</h2>
  <div id="drop_zone" class="drop_zone" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" >  
  </div>
  
- <div id="drop_zoneone" class="drop_zone" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" >
- </div>
- 
- <div id="drop_zonetwo" class="drop_zone" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" >
- </div>
+
 
  <div class="linje"></div> 
     
