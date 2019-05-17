@@ -64,6 +64,7 @@ font-size: 24px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 .book_btn:hover{
@@ -155,7 +156,7 @@ font-size: 24px;
 
 }
 
-.blue_square{
+.blue_square_right{
   width: 40%;
   margin-top: 100px;
   height: 120px;
@@ -179,7 +180,7 @@ font-size: 24px;
 }
 
 .book_container{
-  height: 700px;
+  height: 670px;
   width: 430px;
   margin-left: 30px;
   margin-right: 30px;
@@ -187,6 +188,22 @@ font-size: 24px;
   border: solid 2px black;
   border-radius: 20px;
   padding: 0 6px;
+  transition: 0.5s;
+}
+
+.book_container:hover{
+  transform: scale(1.08);
+  transform-origin: bottom;
+}
+
+.book_text h3{
+  color: #0E8CC4;
+  text-align: center;
+}
+
+.book_text {
+width: 330px;
+height: auto;
 }
 
 .book_img_badeland{
@@ -197,6 +214,7 @@ font-size: 24px;
   border-top-right-radius: 15px;
   margin-left: -6px;
   margin-right: -6px;
+  transition: 0.5s;
 }
 
 .book_img_gaming{
@@ -207,6 +225,7 @@ font-size: 24px;
   border-top-right-radius: 15px;
   margin-left: -6px;
   margin-right: -6px;
+  transition: 0.5s;
 }
 
 .book_img_spring{
@@ -217,18 +236,18 @@ font-size: 24px;
   border-top-right-radius: 15px;
   margin-left: -6px;
   margin-right: -6px;
+  transition: 0.5s;
 }
 
 .book_tilbud_container{
   margin: 0 auto;
   width: 80%;
   height: auto;
-  display: block;
   position: relative;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  margin-bottom: 200px;
+  margin-bottom: 80px;
 }
 
 .tilbud_btn_container{
@@ -245,4 +264,21 @@ justify-content: center;
   width: 150px;
   transform: translateY(20px);
   font-size: 1em;
+}
+
+#book_her_headline{
+  position: absolute;
+  z-index: 1;
+  font-size: 100px;
+  left: 10%;
+  margin-top: 25px;
+}
+
+.blue_square_left{
+  width: 40%;
+  height: 120px;
+  background-color: #0E8CC4;
+  position: absolute;
+  left: 0;
+  z-index: 0;
 }
