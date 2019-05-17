@@ -68,20 +68,16 @@ font-size: 16px;
 
 /*Side 3*/
 .bestil {
-    
-    width: 63%;
+    background-color: #EBF2F5;
+    width: 56%;
     float: left;  
     margin-top: 100px;
     margin-left: 100px;
-    
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px #d6d6d6; 
 }
+  
 
-.bestil_2 {
-   width: 100%;
-    float: left; 
-    margin-top: 100px;
-    
-}
 
 .gallery {
     padding: 0px;
@@ -144,7 +140,7 @@ font-size: 16px;
     background-size: cover;
      border-top-left-radius: 13px;
     border-top-right-radius: 13px;
-     display: block
+    
 }
 .fodboldimg{
     width: 100%;
@@ -153,8 +149,8 @@ font-size: 16px;
     background-size: cover;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
-     display: block;
-        text-align: center;
+
+
 }
 .golfimg{
     width: 100%;
@@ -163,8 +159,7 @@ font-size: 16px;
     background-size: cover;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;'
-    display: block;
-    text-align: center;
+    
 }
 .tennisimg{
     width: 100%;
@@ -173,7 +168,7 @@ font-size: 16px;
     background-size: cover;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
-    text-align: center;
+    
 }
 
 .springimg{
@@ -183,7 +178,7 @@ font-size: 16px;
     background-size: cover;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
-    text-align: center;
+   
 }
 .gamingimg{
     width: 100%;
@@ -244,7 +239,7 @@ font-size: 16px;
 }
 
 .drop_zone{
-       float: right;
+    float: right;
     background-color: #EBF2F5;
     opacity: 1;
     border: #6d6d6d 1px solid;

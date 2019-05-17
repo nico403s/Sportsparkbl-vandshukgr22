@@ -18,6 +18,7 @@ function drag_drop(event) {
     var elem_id = event.dataTransfer.getData("text");
     event.target.appendChild( _(elem_id) );
     _('app_status').innerHTML = "Dropped "+elem_id+" into the "+event.target.getAttribute('id');
+    _(elem_id).Attribute("draggable");
     _(elem_id).style.cursor = "default";
     droppedIn = true;
 }
