@@ -140,6 +140,7 @@ font-size: 16px;
     background-size: cover;
      border-top-left-radius: 13px;
     border-top-right-radius: 13px;
+     display: block
 }
 .fodboldimg{
     width: 100%;
@@ -148,6 +149,8 @@ font-size: 16px;
     background-size: cover;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
+     display: block;
+        text-align: center;
 }
 .golfimg{
     width: 100%;
@@ -155,7 +158,9 @@ font-size: 16px;
     background-image:url(../img/golf.jpg);
     background-size: cover;
     border-top-left-radius: 13px;
-    border-top-right-radius: 13px;
+    border-top-right-radius: 13px;'
+    display: block;
+    text-align: center;
 }
 .tennisimg{
     width: 100%;
@@ -164,6 +169,7 @@ font-size: 16px;
     background-size: cover;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
+    text-align: center;
 }
 
 .springimg{
@@ -173,6 +179,7 @@ font-size: 16px;
     background-size: cover;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
+    text-align: center;
 }
 .gamingimg{
     width: 100%;
@@ -228,24 +235,24 @@ font-size: 16px;
     width: 3px;
     float: right;
     height: 100vh;
-    margin-right: 5.8%;
+    margin-right: 9.8%;
    
 }
 
 .drop_zone{
-    float: right;
-    background-color: #0E8CC4; 
+       float: right;
+    background-color: #0E8CC4;
     opacity: 0.2;
     border: #6d6d6d 1px solid;
     width: 180px;
     border-radius: 15px;
-    height: 165px;
     box-shadow: 2px 2px 2px 2px #d6d6d6;
     padding: 8px;
     font-size: 18px;
     margin-top: 6%;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 100vh;
 }
 
 
