@@ -8,9 +8,76 @@ body{
 }
 
 /*Navbar*/
+.header_container{
+}
+
+.logo_container{
+  margin: 0 180px;
+}
+
+.logo_container img{
+  width: 250px;
+}
+
+.search_container{
+  position: absolute;
+  right: 400px;
+  top: 10px;
+}
+
+#type_text_input{
+  border: 2px solid black;
+  border-radius: 10px;
+  height: 30px;
+  width: 180px;
+  padding: 0 30px;
+}
+
+#search_icon_input {
+  height: 18px;
+  position: absolute;
+  left: 5px;
+  top: 8px;
+  fill: blue;
+}
+
+#search_icon_input:hover{
+  color: blue;
+}
+
+.book_btn_container{
+  position: absolute;
+  right: 250px;;
+  top: 10px;
+}
+
+.book_btn{
+  background-color: #0E8CC4;
+  border-style: none;
+  height: 30px;
+  padding-bottom: 2.5px;
+  padding-top: 2.5px;
+  width: 120px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.book_btn:hover{
+  background-color: white;
+  border: 2px solid #0E8CC4;
+  color: #0E8CC4
+}
+
+/*Navbar*/
 .navigation{
   background: #0d8cc4;
 }
+
 .nav_container{
   width: 100%;
   padding: 0 1rem;
@@ -47,23 +114,19 @@ body{
  color: white;
  margin-left: auto;
  margin-right: auto;
- white-space: nowrap;;
+ white-space: nowrap;
 }
 
 .menu a{
   color: white;
-text-decoration: none;
-padding: 1rem 0;
-display: block;
--webkit-transition: background .2s ease-in-out;
-transition: background .2s ease-in-out;
-font-size: .8rem;
-font-size: 16px;
+ text-decoration: none;
+ padding: 1rem 0;
+ display: block;
+ webkit-transition: background .2s ease-in-out;
+ transition: background .2s ease-in-out;
+ font-size: .8rem;
+ font-size: 16px;
 }
-
-
-
-
 
 
 /*Side 3*/
