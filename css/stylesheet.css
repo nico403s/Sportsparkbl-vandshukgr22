@@ -30,6 +30,7 @@ font-size: 24px;
   height: 30px;
   width: 180px;
   padding: 0 30px;
+  font-family: 'Lato', sans-serif;
 }
 
 #search_icon_input {
@@ -152,8 +153,8 @@ font-size: 24px;
   margin-left: 5%;
 }
 
-#lejrskole_tekst_container h1{
-
+#lejrskole_tekst_container p{
+    font-family: 'Lato', sans-serif;
 }
 
 .blue_square_right{
@@ -202,8 +203,9 @@ font-size: 24px;
 }
 
 .book_text {
-width: 330px;
-height: auto;
+  width: 330px;
+  height: auto;
+  font-family: 'Lato', sans-serif;
 }
 
 .book_img_badeland{
@@ -270,7 +272,7 @@ justify-content: center;
   position: absolute;
   z-index: 1;
   font-size: 100px;
-  left: 10%;
+  left: 20%;
   margin-top: 25px;
 }
 
@@ -278,7 +280,71 @@ justify-content: center;
   width: 40%;
   height: 120px;
   background-color: #0E8CC4;
-  position: absolute;
   left: 0;
   z-index: 0;
+}
+
+.booking_form{
+  margin-top: 50px;
+}
+
+.booking_form input, textarea{
+  display: block;
+  width: 70%;
+  padding: 15px 0;
+  margin: 20px auto;
+  font-family: 'Lato', sans-serif;
+  border: solid 2px rgba(14, 140, 196, 0.6);
+  border-radius: 12px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 1em;
+}
+
+.booking_form textarea{
+  margin-bottom: 10px;
+}
+
+.form_book_btn{
+  background-color: #0E8CC4;
+  border-style: none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 150px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  cursor: pointer;
+  float: right;
+  margin-right: 15%;
+  font: 1em 'Lato', sans-serif;
+}
+
+.form_book_btn:hover{
+  background-color: white;
+  border: 2px solid #0E8CC4;
+  color: #0E8CC4
+}
+
+#yderligere_info_headline{
+  position: absolute;
+  z-index: 1;
+  font-size: 100px;
+  right: 10%;
+  margin-top: 125px;
+}
+
+.yderligere_info_text{
+  text-align: center;
+  width: 90%;
+  margin: 300px auto 100px auto;
+  font: 1em 'Lato', sans-serif;
+}
+
+.yderligere_info_text span{
+  color: #0E8CC4;
 }
