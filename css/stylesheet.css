@@ -1,14 +1,12 @@
 body, html{
   margin: 0;
   padding: 0;
-font-family: 'Exo 2', 'Lato', sans-serif;
-font-size: 24px;
+  font-family: 'Exo 2', 'Lato', sans-serif;
+  font-size: 24px;
+  scroll-behavior: smooth;
 }
 
 /*header*/
-
-.header_container{
-}
 
 .logo_container{
   margin: 0 180px;
@@ -45,9 +43,9 @@ font-size: 24px;
   color: blue;
 }
 
-.book_btn_container{
+.book_btn_container_header{
   position: absolute;
-  right: 250px;;
+  right: 250px;
   top: 10px;
 }
 
@@ -66,6 +64,7 @@ font-size: 24px;
   justify-content: center;
   margin: 0 auto;
   cursor: pointer;
+  text-align: center;
 }
 
 .book_btn:hover{
@@ -106,16 +105,22 @@ font-size: 24px;
 }
 
 .menu li{
-  display: inline-block;
-  text-align: center;
-  flex: 1;
-  border-left: 1px solid #0b74a3;
+ display: inline-block;
+ text-align: center;
+ flex: 1;
+ border-left: 1px solid #0b74a3;
  border-right: 1px solid #0fa4e5;
  cursor: pointer;
  color: white;
  margin-left: auto;
  margin-right: auto;
  white-space: nowrap;
+ background: #0d8cc4;
+ transition: 0.2s;
+}
+
+.menu li:hover{
+  background: #0c78a7;
 }
 
 .menu a{
@@ -123,13 +128,11 @@ font-size: 24px;
  text-decoration: none;
  padding: 1rem 0;
  display: block;
- webkit-transition: background .2s ease-in-out;
- transition: background .2s ease-in-out;
  font-size: .8rem;
  font-size: 16px;
 }
 
-/* css til page2  */
+/* css til page2 og page3  */
 
 #lejrskole_video_containter{
   overflow: hidden;
@@ -167,7 +170,7 @@ font-size: 24px;
   z-index: 0;
 }
 
-.lejrskole_tilbud_container{
+#lejrskole_tilbud_container{
   overflow: hidden;
 
 }
@@ -265,7 +268,9 @@ justify-content: center;
   height: 50px;
   width: 150px;
   transform: translateY(20px);
-  font-size: 1em;
+  font: 1em 'lato', sans-serif;
+  align-items: center;
+  display: flex;
 }
 
 #book_her_headline{
@@ -303,6 +308,9 @@ justify-content: center;
 
 .booking_form textarea{
   margin-bottom: 10px;
+  max-width: 70%;
+  min-width: 70%;
+  min-height: 60px;
 }
 
 .form_book_btn{
@@ -347,4 +355,8 @@ justify-content: center;
 
 .yderligere_info_text span{
   color: #0E8CC4;
+}
+
+.tre_dages_ophold_container{
+  margin-top: 50px;
 }
