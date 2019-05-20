@@ -4,7 +4,8 @@
 }
 body{
     font-family: 'Lato', sans-serif;
-    
+     padding: 0;
+    margin: 0;
 }
 
 /*Navbar*/
@@ -130,13 +131,33 @@ body{
 
 
 /*Side 3*/
+
+.infoboks {
+border: #0d8cc4 solid;
+    /* float: left; */
+    width: 22%;
+    /* display: block; */
+    /* margin: auto; */
+    margin-left: 7%;
+    margin-top: 4%;
+    padding: 1%;
+    border-radius: 13px
+}
+
+
+
+
+
+
+
+
 .bestil {
-    width: 63%;
-    float: left;  
-    margin-top: 100px;
-    margin-left: 100px;
+   width: 63%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 7%;
     border-radius: 15px;
-    box-shadow: 2px 2px 2px 2px #d6d6d6; 
+    box-shadow: 2px 2px 2px 2px #d6d6d6;
 }
   
 
@@ -291,11 +312,12 @@ body{
 }
 
 .linje{
-  background-color: #0E8CC4;
+    background-color: #0E8CC4;
     width: 3px;
     float: right;
-    height: 100vh;
-    margin-right: 2.3%;
+    height: 114vh;
+    margin-top: -8%;
+    margin-right: 4.8%;
    
 }
 
@@ -309,7 +331,6 @@ body{
     box-shadow: 2px 2px 2px 2px #d6d6d6;
     padding: 8px;
     font-size: 18px;
-    margin-top: 6%;
     margin-left: 2%;
     margin-right: 5%;
     height: 100vh;
