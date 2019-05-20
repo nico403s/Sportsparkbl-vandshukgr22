@@ -134,10 +134,7 @@ body{
 
 .infoboks {
 border: #0d8cc4 solid;
-    /* float: left; */
-    width: 22%;
-    /* display: block; */
-    /* margin: auto; */
+    width: 24%;
     margin-left: 7%;
     margin-top: 4%;
     padding: 1%;
@@ -145,7 +142,10 @@ border: #0d8cc4 solid;
 }
 
 
-
+.inf{
+    text-align: center;
+    font-size: 18px;
+}
 
 
 
@@ -331,6 +331,7 @@ border: #0d8cc4 solid;
     box-shadow: 2px 2px 2px 2px #d6d6d6;
     padding: 8px;
     font-size: 18px;
+    margin-top: -4.2%;
     margin-left: 2%;
     margin-right: 5%;
     height: 100vh;
