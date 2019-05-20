@@ -71,12 +71,14 @@
 
 <body>
 
+<h2 id="app_status">App status...</h2>
+
 <div class="infoboks">
     <p class="inf">
         Drag din ønskede aktivitet over i den blå boks
     </p>
 </div>
-<button class="button">Book</button>
+<button class="button" onclick="readDropZone ()">Book</button>
 
 <div class="drop_target" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)">
  <div class="bestil">
@@ -143,9 +145,7 @@
  </div>
 
 
- <div class="drop_zone" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" >
- 
- </div>
+ <div class="drop_zone" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)"></div>
 
 
 
