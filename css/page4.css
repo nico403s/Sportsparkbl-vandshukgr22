@@ -4,7 +4,8 @@
 }
 body{
     font-family: 'Lato', sans-serif;
-    
+     padding: 0;
+    margin: 0;
 }
 
 /*Navbar*/
@@ -129,26 +130,50 @@ body{
 }
 
 
-/*Side 3*/
+/*Side 4*/
+
+
+
+.infoboks{
+    border: #0d8cc4 solid;
+    width: 24%;
+    display: inline-block;
+    margin-left: 7%;
+    margin-top: 4%;
+    padding: 1%;
+    border-radius: 13px
+}
+
+
+.inf{
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+
+
 .bestil {
-    width: 63%;
-    float: left;  
-    margin-top: 100px;
-    margin-left: 100px;
+   width: 63%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 7%;
     border-radius: 15px;
-    box-shadow: 2px 2px 2px 2px #d6d6d6; 
+    box-shadow: 2px 2px 2px 2px #d6d6d6;
 }
   
 
 
 .gallery {
     padding: 0px;
-    margin: 3.8%;
+    display: block;
+    margin: 3% auto 3% 6%;
     border: 2px solid #d6d6d6;
     float: left;
-    width: 180px;
+    width: 10em;
     border-radius: 15px;
-    height: 165px;
+    height: 180px;
     box-shadow: 2px 2px 2px 2px #d6d6d6;
     background-color: #fff;
 }
@@ -159,9 +184,9 @@ body{
     margin: 15px;
     border: 2px solid #d6d6d6;
     float: left;
-    width: 180px;
+    width: 19%;
     border-radius: 15px;
-    height: 165px;
+    height: 185px;
     margin-top: 30px;
     box-shadow: 2px 2px 2px 2px #d6d6d6;
     background-color: #fff;
@@ -192,6 +217,14 @@ body{
     border: 2px solid #606060;
 }
 
+.mere{
+    background-image: url(../icon/info.svg);
+    width: 1.5em;
+    height: 1.5em;
+    background-size: cover;
+    display: block;
+    margin: auto;
+}
 
 
 .badelandimg{
@@ -273,29 +306,34 @@ body{
 
 .button {
     color: white;
+    font-size: 1em;
     background-color: #0E8CC4;
     text-align: center;
-    display: block;
-    margin: auto;
     font-family: 'Lato', sans-serif;
     border-radius: 15px;
-    width: 85px;
-    height: 30px;
-    margin-bottom: -16px;
-    border: 1px solid #606060;
+    width: 10%;
+    height: 3em;
+    margin-left: 48.5%;
+    margin-bottom: 3%;
+    border: 3px solid #606060;
+    transition: ease-in-out 0.2s;
 }
 
 .button:hover{
   cursor: pointer;
-    border: 2px solid #606060;
+    border: 3px solid #0E8CC4;
+    background-color: #fff;
+    font-size: 1em;
+    color: #0E8CC4;
+    
 }
 
 .linje{
-  background-color: #0E8CC4;
+    background-color: #0E8CC4;
     width: 3px;
     float: right;
-    height: 100vh;
-    margin-right: 2.3%;
+    height: 114vh;
+    margin-top: -12.2%;
    
 }
 
@@ -309,8 +347,7 @@ body{
     box-shadow: 2px 2px 2px 2px #d6d6d6;
     padding: 8px;
     font-size: 18px;
-    margin-top: 6%;
-    margin-left: 2%;
+    margin-left: 5%;
     margin-right: 5%;
     height: 100vh;
 }
