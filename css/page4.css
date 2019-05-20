@@ -293,16 +293,17 @@ border: #0d8cc4 solid;
 }
 
 .button {
-    color: white;
+color: white;
+    font-size: 1em;
     background-color: #0E8CC4;
     text-align: center;
     display: block;
     margin: auto;
     font-family: 'Lato', sans-serif;
     border-radius: 15px;
-    width: 85px;
+    width: 113px;
     height: 30px;
-    margin-bottom: -16px;
+    margin-top: 722px;
     border: 1px solid #606060;
 }
 
