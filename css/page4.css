@@ -132,9 +132,10 @@ body{
 
 /*Side 3*/
 
-.infoboks {
-border: #0d8cc4 solid;
+.infoboks{
+    border: #0d8cc4 solid;
     width: 24%;
+    display: inline-block;
     margin-left: 7%;
     margin-top: 4%;
     padding: 1%;
@@ -296,23 +297,27 @@ border: #0d8cc4 solid;
 }
 
 .button {
-color: white;
+    color: white;
     font-size: 1em;
     background-color: #0E8CC4;
     text-align: center;
-    display: block;
-    margin: auto;
     font-family: 'Lato', sans-serif;
     border-radius: 15px;
-    width: 113px;
-    height: 30px;
-    margin-top: 722px;
-    border: 1px solid #606060;
+    width: 10%;
+    height: 3em;
+    margin-left: 48.5%;
+    margin-bottom: 3%;
+    border: 3px solid #606060;
+    transition: ease-in-out 0.2s;
 }
 
 .button:hover{
   cursor: pointer;
-    border: 2px solid #606060;
+    border: 3px solid #0E8CC4;
+    background-color: #fff;
+    font-size: 1em;
+    color: #0E8CC4;
+    
 }
 
 .linje{
@@ -320,7 +325,7 @@ color: white;
     width: 3px;
     float: right;
     height: 114vh;
-    margin-top: -8%;
+    margin-top: -12.2%;
    
 }
 
@@ -334,7 +339,6 @@ color: white;
     box-shadow: 2px 2px 2px 2px #d6d6d6;
     padding: 8px;
     font-size: 18px;
-    margin-top: -4.2%;
     margin-left: 5%;
     margin-right: 5%;
     height: 100vh;
