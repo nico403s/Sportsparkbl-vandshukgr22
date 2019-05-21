@@ -2,11 +2,12 @@
 <html lang="da" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Lejrskole hos Sportspark Blåvandshuk</title>
+    <link rel="stylesheet" href="css/page4.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="scripts/script.js" defer></script>
   </head>
   <body>
     <header>
@@ -17,11 +18,11 @@
       </a>
       </div>
       <div class="search_container">
-        <input id="type_text_input" type="text" name="" value="">
+        <input id="type_text_input" type="text" name="search_input">
         <input id="search_icon_input" type="image" alt="Søg" src="icon/search.svg">
       </div>
-      <div class="book_btn_container">
-       <a class='book_btn' href="#">Book</a>
+      <div class="book_btn_container_header">
+       <a class='book_btn' href="#lejrskole_tilbud_headline">Book</a>
       </div>
    </div>
 
@@ -69,7 +70,7 @@
          <h1>Lejrskole</h1>
          <p>Tag på et af danmarks bedste lejrskoler, med masser af mulighed
 for aktiv udfoldelse, samt kulturelle indtryk, og udnyt hvert øjeblik
-med dine elever igennem lej og sjov</p>
+med dine elever igennem leg og sjov</p>
       </div>
       <div id="video_billede_container">
       <img src="./img/fodbold_mindre.png" alt="video_placeholder">
@@ -77,30 +78,34 @@ med dine elever igennem lej og sjov</p>
     </div>
 
     <main>
-      <div class="lejrskole_tilbud_container">
-      <h2 id="lejrskole_tilbud_headline">Lejrskole tilbud</h1>
-        <div class="blue_square">
+      <div id="lejrskole_tilbud_container">
+      <h2 id="lejrskole_tilbud_headline">Lejrskole tilbud</h2>
+        <div class="blue_square_right">
         </div>
         <div class="book_tilbud_container">
           <div class="book_container">
             <div class="book_img_badeland">
             </div>
+            <div class="book_text">
             <h3>3 dage</h3>
             <p>Med et 3 dages ophold kan du få lov til at komme til Sportsparken og bruge vores faciliteter.
 Du kan med et 3 dages ophold, selv vælge 3 aktiviter.
 </p>
+            </div>
 <div class="tilbud_btn_container">
-<button class="book_btn" type="button" name="button">Book</button>
+<a class="book_btn" href="page3.html">Book</a>
 </div>
        </div>
 
        <div class="book_container">
          <div class="book_img_gaming">
          </div>
+          <div class="book_text">
          <h3>5 dage</h3>
          <p>Med 5 dage i sportsparken, kan du også bruge kan du også nå at se en masse andre ting end bare sportsparken.
 Med 5 dage i sportsparken kan du vælge 6 aktiviteter.
 </p>
+</div>
 <div class="tilbud_btn_container">
 <button class="book_btn" type="button" name="button">Book</button>
 </div>
@@ -109,10 +114,12 @@ Med 5 dage i sportsparken kan du vælge 6 aktiviteter.
     <div class="book_container">
       <div class="book_img_spring">
       </div>
+       <div class="book_text">
       <h3>7 dage</h3>
       <p>Med 7 dage i Sportsparken får du den ultimative oplevelse. Du kan nå at prøve næsten alle vores faciliteter. Du kan også komme ud og se andre ting som havet, museer og meget mere.
 Med 7 dage kan du vælge 10 aktiviteter.
 </p>
+</div>
 <div class="tilbud_btn_container">
 <button class="book_btn" type="button" name="button">Book</button>
 </div>
@@ -120,6 +127,44 @@ Med 7 dage kan du vælge 10 aktiviteter.
 
         </div>
       </div>
+<div class="book_her_container">
+      <h4 id="book_her_headline">Book her</h4>
+        <div class="blue_square_left">
+        </div>
+        <div class="booking_form_container">
+        <form class="booking_form">
+          <input type="text" name="name" value="Navn" required autocomplete="name">
+          <input type="text" name="skole_input" value="Skole" required>
+          <div class="antal_personer_page2_container" required>
+          <select id="select_antal_personer_page2" required>
+            <option value="vælg_antal_personer">Vælg antal personer</option>
+          </select>
+            </div>
+          <select id="select_antal_dage" required>
+            <option value="vælg_antal_dage">Vælg antal dage</option>
+          </select>
+          <input type="text" name="email" value="Email" required autocomplete="email">
+          <input type="text" name="overskrift_input" value="Overskrift" required>
+          <textarea name="besked_input" rows="6" cols="80">Besked</textarea required>
+          <button class="form_book_btn" type="button" name="button">Book</button>
+        </form>
+                </div>
+
+        </div>
+
+      <h5 id="yderligere_info_headline">Yderligere info</h5>
+      <div class="blue_square_right">
+      </div>
+      <div class="yderligere_info_text">
+        <p>Vi stiller rammerne til rådighed for jeres næste lejrskoletur. Vi tilbyder moderne feriehytter til lejrskolevenlige priser.
+Bespisning er efter jeres ønsker, samt er der mulighed for at i selv kan lave mad. Vi tilbyder et idrætscenter med et væld
+af aktiviteter og fri adgang til alt, under hele jeres ophold. Med en placering i Oksbøl finder i storslået natur, spændende kulturelle og historiske oplevelser, alt sammen indenfor cykelafstand.<br><br>
+<span>Lejrskole i Oksbøl</span><br>Oksbøl er lettilgængeligt med offentlig transport, idrætscentret ligger med en gå afstand til stationen på kun 800 meter.
+Samtidig ligger vi placeret op af den store Ål plantage, et område der i efterkrigstidens var hjem for over 30.000 tyske flygtninge, i den oprettede flygtningelejr.
+I 2019 begynder arbejdet med opførelsen af det storslåede Flygtninge Museum, tegnet af selveste Bjarke Ingels (BIG). Mulighederne er mange og det samme er læringsemnerne for en lejrskoletur til Oksbøl.<br><br><span>Ungdomslejr</span><br>Vi tilbyder i samarbejde med Varde Ungdomsskole en Ungdomslejr.
+Overnatningerne kommer til at foregå i vores flotte hytter som ligger lige op af naturen. Ved bookning står vi klar til at hjælpe jer med at planlægge jeres ophold. For at give jer et overblik, giver vi her en liste over vores og aktiviteter i nærområdet.</p>
+      </div>
+
     </main>
   </body>
 </html>

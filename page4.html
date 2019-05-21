@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="dk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,145 +13,154 @@
 </head>
 
 <header>
-    <div class="header_container">
-      <div class="logo_container">
-        <a href="index.html">
-      <img src="img/logo.png" alt="Logo">
-      </a>
-      </div>
-      <div class="search_container">
-        <input id="type_text_input" type="text" name="" value="">
-        <input id="search_icon_input" type="image" alt="Søg" src="icon/search.svg">
-      </div>
-      <div class="book_btn_container">
-       <a class='book_btn' href="#">Book</a>
-      </div>
-   </div>
+<div class="header_container">
+  <div class="logo_container">
+    <a href="index.html">
+  <img src="img/logo.png" alt="Logo">
+  </a>
+  </div>
+  <div class="search_container">
+    <input id="type_text_input" type="text" name="search_input">
+    <input id="search_icon_input" type="image" alt="Søg" src="icon/search.svg">
+  </div>
+  <div class="book_btn_container_header">
+   <a class='book_btn' href="page2.html #lejrskole_tilbud_headline">Book</a>
+  </div>
+</div>
 
 </header>
-    
+<nav class="navigation">
+  <div class="nav_container">
+    <ul class="menu">
+      <li>
+        <a href="#">
+        <i class="fas fa-caret-down"></i>
+        <span>Idrætscenter</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+        <i class="fas fa-caret-down"></i>
+        <span>Fitness Center</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+        <i class="fas fa-caret-down"></i>
+        <span>Svømme & badeland</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+        <i class="fas fa-caret-down"></i>
+        <span>Trænings- og ferieophold</span>
+        </a>
+      </li>
+      <li>
+        <a href="#">
+        <i class="fas fa-caret-down"></i>
+        <span>Møde og fest</span>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+
+</nav>
+
+
 <body>
 
- <nav class="navigation">
-      <div class="nav_container">
-        <ul class="menu">
-          <li>
-            <a href="#">
-            <i class="fas fa-caret-down"></i>
-            <span>Idrætscenter</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-            <i class="fas fa-caret-down"></i>
-            <span>Fitness Center</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-            <i class="fas fa-caret-down"></i>
-            <span>Svømme & badeland</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-            <i class="fas fa-caret-down"></i>
-            <span>Trænings- og ferieophold</span>
-            </a>
-          </li>
-          <li>
-            <a href="#">
-            <i class="fas fa-caret-down"></i>
-            <span>Møde og fest</span>
-            </a>
-          </li>
-        </ul>
-     </div>
-    </nav>        
 
 
+<div class="infoboks">
+    <p class="inf">
+        Drag din ønskede aktivitet over i den blå boks
+    </p>
+</div>
+<button class="btn" onclick="readDropZone ()">Book</button>
 
-<div class="bestil">
 <div class="drop_target" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)">
- 
+ <div class="bestil">
 
- 
-   <div id="badeland" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)"> 
+
+   <div id="badeland" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">
      <div class="badeland">
            <div class="badelandimg"></div>
             <div class="beskrivelse">Badeland</div>
-            <button class="button">Book</button>
+            <div class="mere"></div>
         </div>
     </div>
-   
-<div id="fodbold" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">   
+
+<div id="fodbold" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">
         <div class="fodbold">
-           <div class="fodboldimg"></div> 
+           <div class="fodboldimg"></div>
             <div class="beskrivelse">Fodbold</div>
-        <button class="button">Book</button>
+            <div class="mere"></div>
     </div>
-  </div>  
-   
-<div id="golf" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">   
-                   <div class="golfimg"></div> 
+  </div>
+
+<div id="golf" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">
+                   <div class="golfimg"></div>
             <div class="beskrivelse">Golf</div>
-            <button class="button">Book</button>
+            <div class="mere"></div>
         </div>
-    
-    
-<div id="tennis" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">   
+
+
+<div id="tennis" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">
             <div class="tennis">
-               <div class="tennisimg"></div> 
+               <div class="tennisimg"></div>
                 <div class="beskrivelse">Tennis</div>
-                <button class="button">Book</button>
-        </div>
-    </div> 
-     
-   
-   <div id="tennis" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">  
-            <div class="spring">
-               <div class="springimg"></div> 
-                <div class="beskrivelse">Spring</div>
-                <button class="button">Book</button>
+                <div class="mere"></div>
         </div>
     </div>
-       
-<div id="gaming" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">  
+
+
+   <div id="spring" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">
+            <div class="spring">
+               <div class="springimg"></div>
+                <div class="beskrivelse">Spring</div>
+                <div class="mere"></div>
+        </div>
+    </div>
+
+<div id="gaming" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">
                 <div class="Gaming">
                <div class="gamingimg"></div>
                 <div class="beskrivelse">Gaming</div>
-                <button class="button">Book</button>
+                <div class="mere"></div>
         </div>
     </div>
-       
-<div id="handbold" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">  
-  
+
+<div id="handbold" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">
+
             <div class="handbold">
                <div class="halimg"></div>
                 <div class="beskrivelse">Håndbold</div>
-                <button class="button">Book</button>
+                <div class="mere"></div>
         </div>
     </div>
-       
-<div id="havet" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">    
+
+<div id="havet" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">
             <div class="havet">
-               <div class="havetimg"></div> 
+               <div class="havetimg"></div>
                 <div class="beskrivelse">Havet</div>
-                <button class="button">Book</button>
+                <div class="mere"></div>
         </div>
     </div>
-   </div>
+
  </div>
- 
- 
-<h2 id="app_status">App status...</h2>
- <div class="drop_zone" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)" >  
  </div>
- 
 
 
- <div class="linje"></div> 
-    
-    
+ <div class="drop_zone" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)"></div>
+
+
+
+ <div class="linje"></div>
+
+
+
+
 </body>
 </html>
