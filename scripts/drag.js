@@ -22,5 +22,5 @@ function drag_end(event) {
 
 function readDropZone() {
 
-  alert("Tak fordi du bookede dig ind hos Sportspark Blåvandshuk");
+  alert("Denne funktion er under opbygning");
 }
