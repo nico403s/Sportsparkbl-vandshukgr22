@@ -435,6 +435,25 @@ body, html{
   font-family: 'Lato', sans-serif;
 }
 
+#gallery_popup{
+  position: relative;
+  right: 0px;
+  top: 150px;
+  opacity: 0;
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: center;
+  transform: scale(1);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#gallery_popup img{
+  width: 100px;
+  margin: 0 auto;
+}
+
 .book_img_badeland{
   background-image: url("../img/badeland2.jpg");
   background-size: cover;
