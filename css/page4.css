@@ -402,7 +402,7 @@ body, html{
 #lejrskole_tilbud_headline{
   position: absolute;
   z-index: 1;
-  font-size: 100px;
+  font-size: 5.5em;
   right: 10%;
   margin-top: 125px;
 }
@@ -500,7 +500,7 @@ justify-content: center;
 #book_her_headline{
   position: absolute;
   z-index: 1;
-  font-size: 100px;
+  font-size: 5.5em;
   left: 20%;
   margin-top: 25px;
 }
@@ -565,7 +565,7 @@ justify-content: center;
 #yderligere_info_headline{
   position: absolute;
   z-index: 1;
-  font-size: 100px;
+  font-size: 5.5em;
   right: 10%;
   margin-top: 125px;
 }
@@ -583,4 +583,68 @@ justify-content: center;
 
 .tre_dages_ophold_container{
   margin-top: 50px;
+}
+
+
+/* Styleguide CSS */
+.headline_styleguide{
+  position: relative;
+  z-index: 1;
+  font-size: 5.5em;
+  left: 10%;
+}
+
+.headline_styleguide_small{
+  position: relative;
+  z-index: 1;
+  font-size: 3em;
+  left: 10%;
+  margin-top: 125px;
+}
+
+.p_styleguide{
+  position: relative;
+  left: 10%;
+}
+
+.farver_container{
+  border: solid 2px black;
+}
+
+.farver_button_container{
+  display: flex;
+}
+
+.farve_btn{
+  border-style: none;
+  padding-bottom: 45px;
+  padding-top: 45px;
+  width: 260px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+  display: flex;
+  cursor: pointer;
+  font: 1em 'Lato', sans-serif;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#btn_blue{
+background-color: #0d8cc4;
+}
+
+#btn_white{
+  color: black;
+  background-color: #ffffff;
+  border: 2px solid black;
+}
+
+#btn_black{
+  background-color: #000000;
+}
+
+#btn_lightblue{
+  background-color: #86bdd5;
 }
