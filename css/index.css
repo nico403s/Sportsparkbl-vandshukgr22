@@ -588,7 +588,6 @@ footer p{
 #facebooklogo img{
 	width: 90px;
 	height: auto;
-	
 }
 
 #instagramlogo{
@@ -628,4 +627,212 @@ footer p{
 	float: left;
 	width: 25%;
 	text-align: center;
+}
+
+/*------- Til iPhone X -------*/
+@media screen and (max-width: 600px){
+	
+	section{
+		height: 2800px;
+	}
+	
+	header{
+		display: none;
+	}
+	
+	.nav_container{
+		display: none;
+	}
+	
+	#videooverlaycolor{
+		height: 161px;
+		margin-top: -44%;
+	}
+	
+	#videooverlay{
+		margin: -30% 0 0 0;
+		width: 100%;
+		height: 100px;
+	}
+	
+	#videooverlay img{
+		width: 270px;
+		height: auto;
+	}
+	
+	#videooverlay h6{
+		margin-top: 5px;
+		font-size: 1.1em;
+	}
+	
+	#lejrbox{
+		width: 70%;
+		margin: 10% 15% 50% 15%;
+	}
+	
+	#feriebox{
+		width: 70%;
+		margin: 10% 15% 50% 15%;
+	}
+	
+	#aktiviteterbox{
+		width: 70%;
+		margin: 10% 15% 40% 15%;
+	}
+	
+	#nyhederoverskrift{
+		font-size: 2em;
+	}
+	
+	#quote1{
+		width: 90%;
+		margin: 70% 5% 0 5%;
+	}
+	
+	#quote2{
+		width: 90%;
+		margin: 10% 5% 0 5%;
+	}
+	
+	#quote3{
+		width: 90%;
+		margin: 10% 5% 50% 5%;
+	}
+	
+	#nyhed1{
+		width: 90%;
+		height: 200px;
+		margin: 20% 0 0 10%;
+	}
+
+	.nyhed1img{
+		width: 100px;
+		height: 100px;
+	}
+
+	#nyhed1 h4{
+		font-size: 1.5em;
+		text-align: left;
+	}
+	
+	#nyhed1 h5{
+		font-size: 1.5em;
+	}
+	
+	#nyhed1 p{
+		display: none;
+	}
+		
+	#nyhed2{
+		width: 90%;
+		height: 200px;
+		margin: -15% 0 0 10%;
+	}
+
+	.nyhed2img{
+		width: 100px;
+		height: 100px;
+	}
+
+	#nyhed2 h4{
+		font-size: 1.5em;
+		text-align: left;
+	}
+	
+	#nyhed2 h5{
+		font-size: 1.5em;
+	}
+	
+	#nyhed2 p{
+		display: none;
+	}
+	
+	#nyhed3{
+		width: 90%;
+		height: 200px;
+		margin: -15% 0 0% 10%;
+	}
+
+	.nyhed3img{
+		width: 100px;
+		height: 100px;
+	}
+
+	#nyhed3 h4{
+		font-size: 1.5em;
+		text-align: left;
+	}
+	
+	#nyhed3 h5{
+		font-size: 1.5em;
+	}
+	
+	#nyhed3 p{
+		display: none;
+	}
+	
+	#backgroundbox1{
+		width: 100%;
+		border-radius: 0px;
+		margin: 280% 0 0 0;
+		height: 110px;
+	}
+	
+	#backgroundbox2{
+		width: 100%;
+		border-radius: 0px;
+		margin: -50% 0 0 0;
+	}
+	
+	#viinaturen{
+		width: 90%;
+		margin: -35% 5% 0 5%;
+	}
+	
+	#naturparkvesterhavet{
+		width: 90%;
+		margin: 0 5%;
+	}
+	
+	footer{
+		width: 100%;
+		height: 200px;
+		margin-top: 900px;
+	}
+	
+	#facebooklogo{
+		margin: 5% 0 0 20%;
+	}
+	
+	#instagramlogo{
+		margin: 5% 0 0 57%;
+	}
+	
+	#kontakt1{
+		width: 45%;
+		margin: 40% 2.5% 10% 2.5%;
+	}
+	
+	#kontakt2{
+		width: 45%;
+		margin: 40% 2.5% 10% 2.5%;
+	}
+	
+	#kontakt3{
+		width: 45%;
+		margin: 5% 2.5%;
+	}
+	
+	#kontakt4{
+		width: 45%;
+		margin: 5% 2.5%;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 }
