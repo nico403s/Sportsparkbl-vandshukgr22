@@ -384,6 +384,51 @@ body, html{
     font-family: 'Lato', sans-serif;
 }
 
+#gallery_btn{
+  background-color: #0E8CC4;
+  border-style: none;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  width: 240px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: center;
+  margin: 60px auto 0 auto;
+  cursor: pointer;
+  font: 2em 'Lato', sans-serif;
+}
+/*Popupgalleri. Lader det være en kommentar, så det stadig kan bruges, hvis vi vil bruge det senere. Men ligenu er det ikke færdigt og derfor skal det ikke være synligt på siden ligenu.
+#gallery_popup{
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -140px;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: center;
+  transform: translateX(-50%) scale(0.1);
+  margin: 0 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+  transition: 0.7s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  border-radius: 12px;
+  flex-wrap: wrap;
+  width: 0%;
+  justify-content: center;
+}
+
+#gallery_popup img{
+  height: auto;
+  width: 50%;
+}
+*/
 .blue_square_right{
   width: 40%;
   margin-top: 100px;
@@ -433,25 +478,6 @@ body, html{
   width: 330px;
   height: auto;
   font-family: 'Lato', sans-serif;
-}
-
-#gallery_popup{
-  position: relative;
-  right: 0px;
-  top: 150px;
-  opacity: 0;
-  transition: 0.5s;
-  background-color: rgba(0, 0, 0, 0);
-  display: flex;
-  justify-content: center;
-  transform: scale(1);
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-#gallery_popup img{
-  width: 100px;
-  margin: 0 auto;
 }
 
 .book_img_badeland{
@@ -554,6 +580,7 @@ justify-content: center;
   max-width: 70%;
   min-width: 70%;
   min-height: 60px;
+  max-height: 1000px;
 }
 
 .form_book_btn{
@@ -610,24 +637,30 @@ justify-content: center;
   position: relative;
   z-index: 1;
   font-size: 5.5em;
-  left: 10%;
+  margin-left: 40px;
+}
+
+.headline_styleguide_middle{
+  position: relative;
+  z-index: 1;
+  font-size: 3em;
+  margin-left: 40px;
+  margin-top: 40px;
 }
 
 .headline_styleguide_small{
   position: relative;
   z-index: 1;
-  font-size: 3em;
-  left: 10%;
-  margin-top: 125px;
-}
-
-.p_styleguide{
-  position: relative;
-  left: 10%;
+  font-size: 2em;
+  margin-left: 40px;
+  margin-top: 40px;
 }
 
 .farver_container{
+  padding: 20px 0;
   border: solid 2px black;
+  border-radius: 12px;
+  margin: 0 20px;
 }
 
 .farver_button_container{
@@ -666,4 +699,36 @@ background-color: #0d8cc4;
 
 #btn_lightblue{
   background-color: #86bdd5;
+}
+
+.headline_core{
+  position: absolute;
+  z-index: 1;
+  font-size: 5.5em;
+  left: 10%;
+  margin-top: 0;
+}
+
+.headline_core_container{
+  margin-bottom: 125px;
+}
+
+.p_core{
+  font-family: 'Lato', sans-serif;
+}
+
+.p_core_container{
+  margin-left: 40px;
+}
+
+.start_btn{
+  display: block;
+  bottom: 0;
+  margin: 0 auto;
+  height: 50px;
+  width: 150px;
+  transform: translateY(20px);
+  font: 1em 'lato', sans-serif;
+  align-items: center;
+  display: flex;
 }

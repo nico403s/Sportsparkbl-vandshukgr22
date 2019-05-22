@@ -14,13 +14,14 @@ for(let i=1; i<=7; i++){
   option.value = i;
 }
 
+/* Popupgalleri. Lader det være en kommentar, så det stadig kan bruges, hvis vi vil bruge det senere. Men ligenu er det ikke færdigt og derfor skal det ikke være synligt på siden ligenu.
 function badelandFunction() {
   let popupGallery = document.getElementById('gallery_popup');
+  popupGallery.style.width = "400px";
   popupGallery.style.opacity = "1";
-  popupGallery.style.top = "80px";
-  popupGallery.style.right = "0px";
   popupGallery.style.backgroundColor = "rgba(0, 0, 0, 0.7)";
-  popupGallery.style.transform = "scale(1.8)";
+  popupGallery.style.transform = "translateX(-50%) scale(1)";
   popupGallery.style.paddingTop = "30px";
   popupGallery.style.paddingBottom = "30px";
 }
+*/

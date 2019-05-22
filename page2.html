@@ -76,7 +76,17 @@ med dine elever igennem leg og sjov</p>
       <img src="./img/fodbold_mindre.png" alt="video_placeholder">
       </div>
     </div>
-
+<!-- Popupgalleri. Lader det være en kommentar, så det stadig kan bruges, hvis vi vil bruge det senere. Men ligenu er det ikke færdigt og derfor skal det ikke være synligt på siden ligenu.
+    <div class="gallery_btn_container">
+      <button id="gallery_btn" type="button" name="button" onclick="badelandFunction()">Galleri</button>
+      <div id="gallery_popup">
+<img src="img/hal.jpg" alt="Hal">
+<img src="img/golf.jpg" alt="Golf">
+<img src="img/lob.jpg" alt="Strand">
+<img src="img/tennis.jpg" alt="Tennis">
+      </div>
+    </div>
+-->
     <main>
       <div id="lejrskole_tilbud_container">
       <h2 id="lejrskole_tilbud_headline">Lejrskole tilbud</h2>
@@ -84,12 +94,7 @@ med dine elever igennem leg og sjov</p>
         </div>
         <div class="book_tilbud_container">
           <div class="book_container">
-            <div class="book_img_badeland" onclick="badelandFunction()">
-              <div id="gallery_popup">
-<img src="img/hal.jpg" alt="Hal">
-<img src="img/golf.jpg" alt="Golf">
-<img src="img/lob.jpg" alt="Strand">
-              </div>
+            <div class="book_img_badeland">
             </div>
             <div class="book_text">
             <h3>3 dage</h3>
@@ -107,12 +112,12 @@ Du kan med et 3 dages ophold, selv vælge 3 aktiviter.
          </div>
           <div class="book_text">
          <h3>5 dage</h3>
-         <p>Med 5 dage i sportsparken, kan du også bruge kan du også nå at se en masse andre ting end bare sportsparken.
+         <p>Med 5 dage i sportsparken, kan du også nå at se en masse andre ting end bare sportsparken.
 Med 5 dage i sportsparken kan du vælge 6 aktiviteter.
 </p>
 </div>
 <div class="tilbud_btn_container">
-<button class="book_btn" type="button" name="button">Book</button>
+  <a class="book_btn" href="#">Book</a>
 </div>
     </div>
 
@@ -126,7 +131,7 @@ Med 7 dage kan du vælge 10 aktiviteter.
 </p>
 </div>
 <div class="tilbud_btn_container">
-<button class="book_btn" type="button" name="button">Book</button>
+<a class="book_btn" href="#">Book</a>
 </div>
  </div>
 
@@ -149,9 +154,9 @@ Med 7 dage kan du vælge 10 aktiviteter.
             <option value="vælg_antal_dage">Vælg antal dage</option>
           </select>
           <input type="text" name="email" value="Email" required autocomplete="email">
-          <input type="text" name="overskrift_input" value="Overskrift" required>
-          <textarea name="besked_input" rows="6" cols="80">Besked</textarea required>
-          <button class="form_book_btn" type="button" name="button">Book</button>
+          <input type="text" name="overskrift_input" value="Overskrift">
+          <textarea name="besked_input" rows="6" cols="80">Besked</textarea>
+          <a class="form_book_btn" href="#">Book</a>
         </form>
                 </div>
 
