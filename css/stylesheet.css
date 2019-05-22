@@ -137,7 +137,7 @@ body, html{
 #lejrskole_video_containter{
   overflow: hidden;
   width: 100%;
-  background-image: url('../icon/gradient.png');
+  background-image: url('../icon/gradiean.png');
   background-size: cover;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -146,7 +146,7 @@ body, html{
 #lejrskole_video_containter img{
   float: left;
   width: 30%;
-  margin-left: 5%;
+  margin-left: 15%;
 }
 
 #lejrskole_tekst_container{
