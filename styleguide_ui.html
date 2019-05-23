@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <script src="scripts/script.js" defer></script>
   </head>
-  <body>
+  <body id="styleguide_ui_body">
     <div id="start_ui">
     </div>
     <header>
@@ -37,12 +37,6 @@
             <span>UI-komponenter</span>
             </a>
           </li>
-          <li>
-            <a href="styleguide_js.html">
-            <i class="fas fa-caret-down"></i>
-            <span>JS-komponenter</span>
-            </a>
-          </li>
         </ul>
 
       </div>
@@ -63,17 +57,17 @@
   </div>
   <div class="booking_form_container">
   <form class="booking_form">
-    <input type="text" name="name" value="Navn" required autocomplete="name">
-    <input type="text" name="skole_input" value="Skole" required>
-    <div class="antal_personer_page2_container" required>
-    <select id="select_antal_personer_page2" required>
+    <input type="text" name="name" value="Navn">
+    <input type="text" name="skole_input" value="Skole">
+    <div class="antal_personer_page2_container">
+    <select id="select_antal_personer_styleguide">
       <option value="vælg_antal_personer">Vælg antal personer</option>
     </select>
       </div>
-    <select id="select_antal_dage" required>
+    <select id="select_antal_dage_styleguide">
       <option value="vælg_antal_dage">Vælg antal dage</option>
     </select>
-    <input type="text" name="email" value="Email" required autocomplete="email">
+    <input type="text" name="email" value="Email">
     <input type="text" name="overskrift_input" value="Overskrift">
     <textarea name="besked_input" rows="6" cols="80">Besked</textarea>
     <a class="form_book_btn" href="#">Book</a>

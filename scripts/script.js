@@ -67,6 +67,25 @@ for(let i=1; i<=99; i++){
   option.value = i;
 }}
 
+let styleguideBody = document.getElementById('styleguide_ui_body')
+if (styleguideBody) {
+for(let i=1; i<=99; i++){
+  let select = document.getElementById("select_antal_personer_styleguide");
+  let option = document.createElement('option');
+  select.options.add(option);
+  option.text = i;
+  option.value = i;
+}}
+
+if (styleguideBody) {
+for(let i=1; i<=7; i++){
+  let select = document.getElementById("select_antal_dage_styleguide");
+  let option = document.createElement('option');
+  select.options.add(option);
+  option.text = i;
+  option.value = i;
+}}
+
 
 /* Popupgalleri. Lader det være en kommentar, så det stadig kan bruges, hvis vi vil bruge det senere. Men ligenu er det ikke færdigt og derfor skal det ikke være synligt på siden ligenu.
 function badelandFunction() {
