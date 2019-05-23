@@ -829,10 +829,13 @@ footer p{
 	}
 	
 	
-	
-	
-	
-	
-	
+}
+
+/*------- burgermenu -------*/
+@media screen and (max-width: 600px){
+
+	.mobilnav{
+		display: none;
+	}
 	
 }
