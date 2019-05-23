@@ -17,7 +17,7 @@ function drag_leave(event) {
 
 function drag_drop(event) {
     event.preventDefault(); /* Prevent undesirable default behavior while dropping */
-    var elem_id = event.dataTransfer.getData("text");
+    let elem_id = event.dataTransfer.getData("text");
     event.target.appendChild( _(elem_id) );
     _(elem_id).style.cursor = "default";
     droppedIn = true;
