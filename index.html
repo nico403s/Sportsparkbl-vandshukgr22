@@ -12,6 +12,7 @@
 </head>
 
 <header>
+	
     <div class="header_container">
       <div class="logo_container">
         <a href="index.html">
@@ -32,6 +33,26 @@
 <body>
 	
 <section>
+	
+	<img src="icon/Leon_menu.svg" alt="menu" class="menu-btn" id="open-menu">
+	
+	<nav id="overlay" class="overlay">
+		<img src="icon/Leon_menu.svg" alt="menu" class="close-btn" id="close-menu">
+		
+		<ul>
+			<li>
+				<a href="#">Idrætscenter <br><br><br></a>
+				<a href="#">Fitness Center <br><br><br></a>
+				<a href="#">Svømme & badeland <br><br><br></a>
+				<a href="#">Trænings- og ferieophold <br><br><br></a>
+				<a href="#">Møde og fest</a>
+			</li>
+		</ul>
+	</nav>
+	
+		
+
+	
 	<nav class="navigation">
       <div class="nav_container">
         <ul class="menu">
@@ -70,12 +91,6 @@
       </div>
 
     </nav>
-	
-	<div class="mobilnav">
-		<div class="burgermenu_container">
-			<img src="icon/burger_menu_ikon.svg" alt="Menu" onClick="myFunction()">
-		</div>
-	</div>
 	
 	
 	
@@ -219,6 +234,18 @@
 
 	
 </footer>
+	
+	<script>
+	
+	let overlay = document.getElementById('overlay');
+	let closeMenu = document.getElementById('close-menu');
+		
+		
+	document.getElementById('open-menu').addEventListener('click', function() {
+		overlay.classList.add('show-menu');
+	});
+	
+	</script>
 
 </body>
 	

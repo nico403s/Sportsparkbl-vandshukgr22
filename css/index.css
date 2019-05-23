@@ -75,7 +75,7 @@ section{
 .book_btn:hover{
   background-color: white;
   border: 2px solid #0E8CC4;
-  color: #0E8CC4
+  color: #0E8CC4;
 }
 
 /*Navbar*/
@@ -828,13 +828,67 @@ footer p{
 		margin: 5% 2.5%;
 	}
 	
+
+	
+	.menu-btn{
+		width: 17%;
+		height: auto;
+		float: left;
+		cursor: pointer;
+		position: fixed;
+		border-bottom-right-radius: 5px;
+		border: solid 1px #FFF;
+	}
+	
+	#videooverlaycolor{
+		display: none;
+	}
+	
+	.close-btn{
+		width: 17%;
+		float: left;
+		cursor: pointer;
+		border-bottom-right-radius: 5px;
+		border: solid 1px #FFF;
+	}
+	
+	ul{
+		list-style-type: none;
+		margin: 60% auto 10% auto;
+		padding: 0;
+		display: block;
+		width: 86%;
+		font-size: 1.8em;
+	}
+	
+	li a{
+		text-decoration: none;
+		font-family: 'Lato', sans-serif;
+		font-weight: bold;
+		color: #FFF;
+	}
+	
+	#overlay{
+		display: none;
+		position: absolute;
+		background: #0E8CC4;
+		padding: 0em;
+		width: 100%;
+		height: 100vh;
+	}
+	
+	.show-menu{
+		display: block;
+	}
+	
+	
 	
 }
 
 /*------- burgermenu -------*/
-@media screen and (max-width: 600px){
+@media screen and (min-width: 601px){
 
-	.mobilnav{
+	.menu-btn{
 		display: none;
 	}
 	
