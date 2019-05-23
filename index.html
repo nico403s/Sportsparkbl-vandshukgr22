@@ -1,7 +1,7 @@
 <!doctype html>
 <html  lang="da" dir="ltr">
-<head>
 <meta charset="utf-8" name="viewport" content="width=device-width">
+<head>
 <title>projekt 4 index</title>
 <link rel="stylesheet" href="css/index.css">
  <meta name="description" content="Webpage for Sportspark Blåvandshuk">
@@ -20,7 +20,7 @@
       </a>
       </div>
       <div class="search_container">
-        <input id="type_text_input" type="text" name="" value="">
+        <input id="type_text_input" type="text" name="search" value="">
         <input id="search_icon_input" type="image" alt="Søg" src="icon/search.svg">
       </div>
       <div class="book_btn_container">
@@ -31,13 +31,12 @@
 </header>
 
 <body>
+
+<nav id="overlayen" class="overlayen">
 	
-<section>
 	
-	<img src="icon/Leon_menu.svg" alt="menu" class="menu-btn" id="open-menu">
 	
-	<nav id="overlay" class="overlay">
-		<img src="icon/Leon_menu.svg" alt="menu" class="close-btn" id="close-menu">
+		<img src="icon/Leon_menu.svg" alt="menu" class="close-btn" id="luk">
 		
 		<ul>
 			<li>
@@ -48,8 +47,14 @@
 				<a href="#">Møde og fest</a>
 			</li>
 		</ul>
-	</nav>
+</nav>
+
+<img id="open" src="icon/Leon_menu.svg" alt="menu" class="menu-btn">	
 	
+<section>
+
+
+
 		
 
 	
@@ -119,28 +124,28 @@
 	
 	<div id="aktiviteterbox">
 		<h5><br>Aktiviteter</h5>
-		<img src="img/hal.jpg" alt="aktivitetbillede">
+		<img src="img/baby%20i%20pool.jpg" alt="aktivitetbillede">
 	</div>
 	
 	<div id="quote1">
-		<h8>"</h8>
+		<h2 class="citat">"</h2>
 		<p>Så fedt et sted, er klar <br> på endnu en <br> weekend der snart. </p>
 		<img src="img/peter.jpg" alt="kunde1">
-		<h9> <br> Peter Kristensen</h9>
+		<h3 class="qoute1"> <br> Peter Kristensen</h3>
 	</div>
 	
 	<div id="quote2">
-		<h8>"</h8>
+		<h2 class="citat">"</h2>
 		<p>Lige hjemkommet <br> efter et fantastisk <br> familieophold, hvor vi <br> var 27 afsted, i <br> aldersgruppen 3 mdr <br> til 66år. Perfekte <br> rammer, til et aktivt <br> familieophold. Super <br> gode og velindrettet <br> hytter.</p>
 		<img src="img/ilse.jpg" alt="kunde2">
-		<h9> <br> Ilse Mortensen</h9>
+		<h3 class="qoute1"> <br> Ilse Mortensen</h3>
 	</div>
 	
 	<div id="quote3">
-		<h8>"</h8>
+		<h2 class="citat">"</h2>
 		<p>Super sted hvor alle er <br> velkommen</p>
 		<img src="img/erik.jpg" alt="kunde2">
-		<h9> <br> Erik Jacobsen</h9>
+		<h3 class="qoute1"> <br> Erik Jacobsen</h3>
 	</div>
 	
 	<div id="backgroundbox1">
@@ -188,7 +193,7 @@
 	
 </section>
 	
-	
+
 	
 <footer>
 	
@@ -237,16 +242,23 @@
 	
 	<script>
 	
-	let overlay = document.getElementById('overlay');
-	let closeMenu = document.getElementById('close-menu');
-		
-		
-	document.getElementById('open-menu').addEventListener('click', function() {
-		overlay.classList.add('show-menu');
-	});
 	
+	
+        
+    var overlay = document.getElementById('overlayen')
+    var closeMenu = document.getElementById('luk')
+        
+        document.getElementById('open').addEventListener('click',
+        function(){
+            overlay.classList.add('show-menu');
+        });
+        
+        document.getElementById('luk').addEventListener('click',
+        function(){
+            overlay.classList.remove('show-menu');
+        });
 	</script>
 
+
 </body>
-	
 </html>

@@ -266,6 +266,13 @@ h6{
 	text-align: center;
 	margin-left: 40%;
 }
+.citat{
+    color: #0E8CC4;
+	font-size: 7em;
+	font-family: 'Exo 2', sans-serif;
+	font-weight: bold;
+	margin-left: 40%;
+}
 
 #quote1 p{
 	font-family: 'Lato', sans-serif;
@@ -281,8 +288,7 @@ h6{
 	margin: 30px 0 0 38%;
 }
 
-#quote1 h9{
-	text-align: center;
+#quote1 h3{
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 	font-size: 1em;
@@ -635,7 +641,9 @@ footer p{
 	section{
 		height: 2800px;
 	}
-	
+    .backgroundvideo{
+        margin-top: 20%;
+    }
 	header{
 		display: none;
 	}
@@ -827,9 +835,11 @@ footer p{
 		width: 45%;
 		margin: 5% 2.5%;
 	}
-	
-
-	
+    
+    #videooverlaycolor{
+		display: none;
+	}
+    
 	.menu-btn{
 		width: 17%;
 		height: auto;
@@ -838,18 +848,22 @@ footer p{
 		position: fixed;
 		border-bottom-right-radius: 5px;
 		border: solid 1px #FFF;
+        margin-top: -20%;
+        padding: 3%;
 	}
 	
-	#videooverlaycolor{
-		display: none;
+
+	.show-menu{
+		display: block;
+        opacity: 1;
 	}
-	
 	.close-btn{
 		width: 17%;
 		float: left;
 		cursor: pointer;
 		border-bottom-right-radius: 5px;
 		border: solid 1px #FFF;
+        
 	}
 	
 	ul{
@@ -859,6 +873,7 @@ footer p{
 		display: block;
 		width: 86%;
 		font-size: 1.8em;
+        
 	}
 	
 	li a{
@@ -866,20 +881,20 @@ footer p{
 		font-family: 'Lato', sans-serif;
 		font-weight: bold;
 		color: #FFF;
+        
 	}
 	
-	#overlay{
-		display: none;
+	.overlayen{
+		display: block;
 		position: absolute;
 		background: #0E8CC4;
 		padding: 0em;
 		width: 100%;
 		height: 100vh;
+        opacity: 0;
 	}
 	
-	.show-menu{
-		display: block;
-	}
+	
 	
 	
 	
@@ -890,6 +905,7 @@ footer p{
 
 	.menu-btn{
 		display: none;
+        opacity: 1;
 	}
 	
 }
