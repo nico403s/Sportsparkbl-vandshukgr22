@@ -907,7 +907,7 @@ footer p{
 	
 }
 
-/*------- burgermenu -------*/
+/*------- burgermenu none -------*/
 @media screen and (min-width: 601px){
 
 	.menu-btn{
@@ -934,5 +934,106 @@ footer p{
 	.overlayen{
 		display: none;
 	}
+	
+}
+
+/*----------- Ipad Pro --------------*/
+@media screen and (max-width: 1050px){
+
+	.logo_container{
+ 		margin: 10px 100px;
+	}
+
+	.search_container{
+		right: 200px;
+		top: 20px;
+	}
+
+	.book_btn_container{
+		right: 50px;;
+		top: 23px;
+	}
+
+	.navigation{
+  		background: #0d8cc4;
+	}
+
+	.nav_container{
+		padding: 0 0rem;
+	}
+
+	#videooverlaycolor{
+		height: 31.6%;
+		margin-top: -42.5%;
+	}
+
+	#videooverlay{
+		margin-top: -330px;
+	}
+	
+	#lejrbox{
+		height: 7.1%;
+	}
+	
+	#feriebox{
+		height: 7.1%;
+	}
+	
+	#aktiviteterbox{
+		height: 7.1%;
+	}
+
+	#nyestebox{
+		margin-left: 40%;
+		margin-top: 6%;
+		margin-bottom: 2%;
+	}
+	
+	#nyhed1{
+		margin-left: 20%;
+		margin-top: 5%;
+	}
+	
+	.nyhed1img{
+		margin-right: 5%;
+	}
+	
+	#nyhed2{
+		margin-left: 20%;
+		margin-top: 5%;
+		margin-bottom: 10%;
+	}
+	
+	.nyhed2img{
+		margin-right: 5%;
+	}
+	
+	#nyhed2 p{
+		width: 65%;
+		margin-left: 40%;
+	}
+	
+	#nyhed3{
+		margin-left: 20%;
+		margin-top: 5%;
+	}
+	
+	.nyhed3img{
+		margin-right: 5%;
+	}
+	
+	#nyhed3 p{
+		width: 65%;
+		margin-left: 40%;
+	}
+	
+	#viinaturen{
+		margin-top: 15%;
+	}
+	
+	#naturparkvesterhavet{
+		margin-top: 16%;
+	}
+	
 	
 }
