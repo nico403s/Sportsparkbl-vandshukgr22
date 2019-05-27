@@ -848,6 +848,7 @@ footer p{
 	}
     
 	.openmenubar{
+        display: block;
 		width: 17%;
 		height: auto;
 		float: left;
@@ -855,26 +856,30 @@ footer p{
 		position: fixed;
 		border-bottom-right-radius: 5px;
 		border: solid 1px #FFF;
-        margin-top: -20%;
+        margin-top: 0%;
         padding: 3%;
 	}
     
 	.overlayen{
         display: none;
-		position: absolute;
+		position: fixed;
 		background: #0E8CC4;
 		padding: 0em;
 		width: 100%;
-		height: 100vh;
+		height: 150vh;
 	}
 
 	
-	.close-btn{
+	.lukmenubar{
 		width: 17%;
+		height: auto;
 		float: left;
 		cursor: pointer;
+		position: fixed;
 		border-bottom-right-radius: 5px;
 		border: solid 1px #FFF;
+        margin-top: 0%;
+        padding: 3%;
         
 	}
 	
@@ -897,13 +902,33 @@ footer p{
 	}
 	
 	
-	
-	
 	.show-menu{
-		display: block;
-        
-	}
-	
+    display: block;
+    animation: infoverlay 0.5s ease-in-out forwards;
+}
+    
+@keyframes infoverlay{
+    from{
+        opacity: 0.3;
+    }
+    to {
+        opacity: 1;
+    }
+}
+    
+#navani{
+    animation: infogallery 0.5s forwards ease-in;
+}
+@keyframes infogallery{
+    from{
+        transform: translateY(90%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 	
 }
 
