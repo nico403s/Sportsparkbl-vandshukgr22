@@ -154,7 +154,7 @@ body, html{
     display: none;
     position: absolute;
     padding: 0px;
-   
+
     float: left;
     width: 10em;
     width: 63%;
@@ -197,7 +197,7 @@ body, html{
     padding-top: 1em;
     padding-left: 1em;
     margin: auto;
-    
+
 }
 
 .badeland{
@@ -295,7 +295,7 @@ body, html{
     background-size: cover;
     display: block;
     margin: auto;
-   
+
 }
 
 
@@ -664,8 +664,9 @@ justify-content: center;
   width: 40%;
   height: 120px;
   background-color: #0E8CC4;
-  left: 0;
   z-index: 0;
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .booking_form{
@@ -811,12 +812,6 @@ footer p{
 
 
 /* Styleguide CSS */
-.headline_styleguide{
-  position: relative;
-  z-index: 1;
-  font-size: 5.5em;
-  margin-left: 40px;
-}
 
 .headline_styleguide_middle{
   position: relative;

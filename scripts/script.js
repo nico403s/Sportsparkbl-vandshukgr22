@@ -92,21 +92,44 @@ for(let i=1; i<=7; i++){
 }}
 
 let tl = new TimelineMax({onUpdate:updatePercentage});
+let tl2 = new TimelineMax({onUpdate:updatePercentage});
+let tl3 = new TimelineMax({onUpdate:updatePercentage});
 let controller = new ScrollMagic.Controller();
 
-tl.from(".blue_square_right", 4, {opacity: 0, right: "-250%"});
+tl.from("#square_right_tilbud", 1, {width: 0});
+tl2.from(".blue_square_left", 1, {width: 0});
+tl3.from("#square_right_yderligere", 1, {width: 0});
 
 new ScrollMagic.Scene({
   triggerElement: "#lejrskole_video_containter",
-  triggerHook: "onEnter",
-  offset: 180,
+  triggerHook: "onLeave",
+  offset: -80,
   duration: "100%"
 })
 .setTween(tl)
 .addTo(controller);
 
+new ScrollMagic.Scene({
+  triggerElement: ".book_pris",
+  triggerHook: "onEnter",
+  offset: 800,
+  duration: "100%"
+})
+.setTween(tl2)
+.addTo(controller);
+
+new ScrollMagic.Scene({
+  triggerElement: "#yderligere_info_headline",
+  triggerHook: "onEnter",
+  offset: 0,
+  duration: "100%"
+})
+.setTween(tl3)
+.addTo(controller);
+
 function updatePercentage() {
   tl.progress();
+  tl2.progress();
 }
 
 /* Popupgalleri. Lader det være en kommentar, så det stadig kan bruges, hvis vi vil bruge det senere. Men ligenu er det ikke færdigt og derfor skal det ikke være synligt på siden ligenu.
@@ -123,7 +146,7 @@ function badelandFunction() {
 
 let overlay = document.getElementById('informationsknap')
 let closeMenu = document.getElementById('luk')
-        
+
         document.getElementById('open').addEventListener('click',
         function(){
             overlay.classList.add('badeland');
