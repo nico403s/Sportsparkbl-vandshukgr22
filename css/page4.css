@@ -156,13 +156,17 @@ body, html{
     border: 2px solid #d6d6d6;
     float: left;
     width: 10em;
-    border-radius: 15px;
     width: 63%;
     height: 50%;
     box-shadow: 2px 2px 2px 2px #d6d6d6;
     text-align: center;
-    background-color: #0e8cc4;
+    
     color: #fff;
+}
+.iibadeland{
+    background-color: #0e8cc4;
+    opacity: 0.95;
+    border-radius: 15px;
 }
 .infotekst{
     width: 90%;
@@ -177,11 +181,7 @@ body, html{
     opacity: 0;
     box-shadow: 2px 2px 2px 2px #d6d6d6
 }
-.bagfarve{
-    width: 100%;
-    height: 100%;
-    
-}
+
 
 .ibadeland{
     padding-top: 7%;
@@ -201,11 +201,11 @@ body, html{
 
 .badeland{
     display: block;
-    animation: infoverlay 1s ease-in-out forwards;
+    animation: infoverlay 0.5s ease-in-out forwards;
 }
 @keyframes infoverlay{
     from{
-        opacity: 0;
+        opacity: 0.3;
     }
     to {
         opacity: 1;
