@@ -4,6 +4,7 @@ body, html{
   font-family: 'Exo 2', 'Lato', sans-serif;
   font-size: 18px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /*header*/
@@ -431,6 +432,7 @@ body, html{
   position: absolute;
   right: 0;
   z-index: 0;
+  opacity: 1;
 }
 
 #lejrskole_tilbud_container{
