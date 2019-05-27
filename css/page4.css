@@ -243,7 +243,7 @@ body, html{
     float: left;
     width: 10em;
     border-radius: 15px;
-    height: 190px;
+    height: 203px;
     box-shadow: 2px 2px 2px 2px #d6d6d6;
     background-color: #fff;
 }
@@ -256,7 +256,7 @@ body, html{
     float: left;
     width: 19%;
     border-radius: 15px;
-    height: 190px;
+    height: 203px;
     margin-top: 30px;
     box-shadow: 2px 2px 2px 2px #d6d6d6;
     background-color: #fff;
@@ -370,8 +370,25 @@ body, html{
     border-top-right-radius: 13px;
 }
 
+.prisnul{
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 8px;
+    color: green;
+}
+
+.prism{
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 8px;
+    color: orangered;
+}
+
+
 .beskrivelse {
-  padding: 15px;
+  padding-top: 15px;
   text-align: center;
 }
 
@@ -403,7 +420,7 @@ body, html{
     background-color: #0E8CC4;
     width: 3px;
     float: right;
-    height: 125vh;
+    height: 118vh;
     margin-top: -13.7%;
 
 }
@@ -420,7 +437,7 @@ body, html{
     font-size: 18px;
     margin-left: 5%;
     margin-right: 5%;
-    height: 100vh;
+    height: 91vh;
 }
 
 /* css til page2 og page3  */
