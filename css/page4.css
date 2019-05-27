@@ -547,11 +547,15 @@ body, html{
   padding: 0 6px;
   transition: 0.5s;
 }
-
+.book_text{
+    width: 100%;
+    margin: auto;
+}
 .bookpris{
     text-align: center;
     color: green;
     font-size: 1.1em;
+    width: 100%;
 }
 
 .book_container:hover{
