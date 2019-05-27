@@ -149,7 +149,24 @@ body, html{
 }
 
 
+.overlayen{
+    display: none;
+    position: absolute;
+    padding: 0px;
+    margin: 2% auto 3% 4%;
+    border: 2px solid #d6d6d6;
+    float: left;
+    width: 10em;
+    border-radius: 15px;
+    height: 190px;
+    box-shadow: 2px 2px 2px 2px #d6d6d6;
+    background-color: #fff;
+    text-align: center;
+}
 
+.badeland{
+    display: block;
+}
 
 
 .bestil {
@@ -171,7 +188,7 @@ body, html{
     float: left;
     width: 10em;
     border-radius: 15px;
-    height: 180px;
+    height: 190px;
     box-shadow: 2px 2px 2px 2px #d6d6d6;
     background-color: #fff;
 }
@@ -184,7 +201,7 @@ body, html{
     float: left;
     width: 19%;
     border-radius: 15px;
-    height: 185px;
+    height: 190px;
     margin-top: 30px;
     box-shadow: 2px 2px 2px 2px #d6d6d6;
     background-color: #fff;
@@ -222,6 +239,7 @@ body, html{
     background-size: cover;
     display: block;
     margin: auto;
+   
 }
 
 
@@ -330,8 +348,8 @@ body, html{
     background-color: #0E8CC4;
     width: 3px;
     float: right;
-    height: 114vh;
-    margin-top: -12.2%;
+    height: 125vh;
+    margin-top: -13.7%;
 
 }
 

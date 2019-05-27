@@ -98,3 +98,11 @@ function badelandFunction() {
   popupGallery.style.paddingBottom = "30px";
 }
 */
+
+let overlay = document.getElementById('informationsknap')
+let closeMenu = document.getElementById('luk')
+        
+        document.getElementById('open').addEventListener('click',
+        function(){
+            overlay.classList.add('badeland');
+        });
