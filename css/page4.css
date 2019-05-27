@@ -370,6 +370,18 @@ body, html{
     border-top-right-radius: 13px;
 }
 
+.tirimg{
+   width: 100%;
+    height: 100px;
+    background-image:url(../img/tirpitz.jpg);
+    background-size: cover;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+
+
+
 .prisnul{
     text-align: center;
     font-size: 0.8em;
@@ -383,7 +395,7 @@ body, html{
     font-size: 0.8em;
     margin: 0;
     padding: 8px;
-    color: orangered;
+    color: green;
 }
 
 
