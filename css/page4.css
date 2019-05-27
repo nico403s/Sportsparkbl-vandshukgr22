@@ -153,24 +153,50 @@ body, html{
     display: none;
     position: absolute;
     padding: 0px;
-    margin: 2% auto 3% 4%;
     border: 2px solid #d6d6d6;
     float: left;
     width: 10em;
     border-radius: 15px;
-    height: 190px;
+    width: 63%;
+    height: 50%;
     box-shadow: 2px 2px 2px 2px #d6d6d6;
-    background-color: #fff;
     text-align: center;
+    background-color: #0e8cc4;
 }
+
+.bagfarve{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.ibadeland{
+    padding-top: 7%;
+}
+
+
+
 .luk{
-    width: 1em;
-    height: 1em;
+    float: left;
+    width: 2em;
+    height: 2em;
+    padding-top: 1em;
+    padding-left: 1em;
+    margin: auto;
     
 }
 
 .badeland{
     display: block;
+    animation: infoverlay 0.8s ease-in-out forwards;
+}
+@keyframes infoverlay{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 
