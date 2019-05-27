@@ -548,10 +548,17 @@ body, html{
   transition: 0.5s;
 }
 
+.bookpris{
+    text-align: center;
+    color: green;
+    font-size: 1.1em;
+}
+
 .book_container:hover{
   transform: scale(1.08);
   transform-origin: bottom;
 }
+
 
 .book_text h3{
   color: #0E8CC4;
