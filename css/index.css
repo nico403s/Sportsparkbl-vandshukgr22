@@ -848,7 +848,7 @@ footer p{
 		display: none;
 	}
     
-	.menu-btn{
+	.openmenubar{
 		width: 17%;
 		height: auto;
 		float: left;
@@ -859,12 +859,17 @@ footer p{
         margin-top: -20%;
         padding: 3%;
 	}
-	
-
-	.show-menu{
-		display: block;
-        opacity: 1;
+    
+	.overlayen{
+        display: none;
+		position: absolute;
+		background: #0E8CC4;
+		padding: 0em;
+		width: 100%;
+		height: 100vh;
 	}
+
+	
 	.close-btn{
 		width: 17%;
 		float: left;
@@ -892,18 +897,13 @@ footer p{
         
 	}
 	
-	.overlayen{
+	
+	
+	
+	.show-menu{
 		display: block;
-		position: absolute;
-		background: #0E8CC4;
-		padding: 0em;
-		width: 100%;
-		height: 100vh;
-        opacity: 0;
+        
 	}
-	
-	
-	
 	
 	
 }
