@@ -36,7 +36,7 @@ function readDropZone(){
     /* Run Ajax request to pass any data to your server */
 }
 
-/*øndring i js til forbedring
+/*ændring i js til forbedring
 
 før var der en alert der sagde "knappen er under opbygning". nu er der blevet tilføjet et for loop, som går ind og læser dropzonens filer. dernæst når der bliver trygget på knappen book, læser den dropzonen og skriver en ny alert, nu sstår der "du har nu bestilt, Vi strikker et program sammen til dig. Tak fordi du bookede et ophold hos Sportspark Blaavandshuk.*/
 
