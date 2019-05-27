@@ -91,6 +91,23 @@ for(let i=1; i<=7; i++){
   option.value = i;
 }}
 
+let tl = new TimelineMax({onUpdate:updatePercentage});
+let controller = new ScrollMagic.Controller();
+
+tl.from(".blue_square_right", 4, {opacity: 0, right: "-250%"});
+
+new ScrollMagic.Scene({
+  triggerElement: "#lejrskole_video_containter",
+  triggerHook: "onEnter",
+  offset: 180,
+  duration: "100%"
+})
+.setTween(tl)
+.addTo(controller);
+
+function updatePercentage() {
+  tl.progress();
+}
 
 /* Popupgalleri. Lader det være en kommentar, så det stadig kan bruges, hvis vi vil bruge det senere. Men ligenu er det ikke færdigt og derfor skal det ikke være synligt på siden ligenu.
 function badelandFunction() {
