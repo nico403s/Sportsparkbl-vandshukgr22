@@ -80,7 +80,7 @@
 </div>
 <button class="btn" onclick="readDropZone ()">Book</button>
 
-<div class="drop_target" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)">
+<div class="drop_target" id="drop_target" ondragenter="drag_enter(event)" ondrop="drag_drop(event)" ondragover="return false" ondragleave="drag_leave(event)">
  <div class="bestil">
 
 
@@ -88,14 +88,29 @@
      <div class="badeland">
            <div class="badelandimg"></div>
             <div class="beskrivelse">Badeland</div>
-            <div class="mere"></div>
+            <p class="prisnul">Gratis</p>
+            <div id="open" class="mere"></div> 
         </div>
     </div>
+   
+<div id="informationsknap" class="overlayen">
+    <div class="iibadeland">
+       <img src="icon/luk.svg" alt="luk knap" class="luk" id="lukbtn">
+       <div class="infotekst">
+        <h2 class="ibadeland">Badeland</h2>
+        <p>Du kan komme i badelandt i sportspark blåvandshuk. Det koster ikke eksta og du har mulighed for at kunne komme ud og prøve rutsjebaner og alt hvad badelandet har at tilbyde. Dette koster ikke ekstra og er en aktivitet der nemt kan planlægges til hvornår du gerne vil i badelandet.</p>
+        </div>
+        <img src="img/baby%20i%20pool.jpg" alt="baby i pool" class="infogallery" id="infogallery">
+        <img src="img/badelandsportspark.jpeg" alt="badeland" class="infogallery" id="infogallery">
+        <img src="img/badeland2.jpg" alt="badeland" class="infogallery" id="infogallery">
+    </div>
+</div>
 
 <div id="fodbold" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">
         <div class="fodbold">
            <div class="fodboldimg"></div>
             <div class="beskrivelse">Fodbold</div>
+            <p class="prisnul">Gratis</p>
             <div class="mere"></div>
     </div>
   </div>
@@ -103,6 +118,7 @@
 <div id="golf" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">
                    <div class="golfimg"></div>
             <div class="beskrivelse">Golf</div>
+            <p class="prisnul">Gratis</p>
             <div class="mere"></div>
         </div>
 
@@ -111,6 +127,7 @@
             <div class="tennis">
                <div class="tennisimg"></div>
                 <div class="beskrivelse">Tennis</div>
+                <p class="prisnul">Gratis</p>
                 <div class="mere"></div>
         </div>
     </div>
@@ -120,6 +137,7 @@
             <div class="spring">
                <div class="springimg"></div>
                 <div class="beskrivelse">Spring</div>
+                <p class="prisnul">Gratis</p>
                 <div class="mere"></div>
         </div>
     </div>
@@ -127,7 +145,8 @@
 <div id="gaming" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">
                 <div class="Gaming">
                <div class="gamingimg"></div>
-                <div class="beskrivelse">Gaming</div>
+                <div class="beskrivelse">Esport</div>
+                <p class="prism"> 30 Kr. pr time</p>
                 <div class="mere"></div>
         </div>
     </div>
@@ -137,6 +156,7 @@
             <div class="handbold">
                <div class="halimg"></div>
                 <div class="beskrivelse">Håndbold</div>
+                <p class="prisnul">Gratis</p>
                 <div class="mere"></div>
         </div>
     </div>
@@ -145,6 +165,16 @@
             <div class="havet">
                <div class="havetimg"></div>
                 <div class="beskrivelse">Havet</div>
+                <p class="prisnul">Gratis</p>
+                <div class="mere"></div>
+        </div>
+    </div>
+    
+<div id="tirp" class="gallery" draggable="true" ondragstart="drag_start(event)" ondragend="drag_end(event)">
+            <div class="tirpitz">
+               <div class="tirimg"></div>
+                <div class="beskrivelse">Tirpitz</div>
+                <p class="prism">pris fra. 145 pr. voksen</p>
                 <div class="mere"></div>
         </div>
     </div>

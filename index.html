@@ -26,20 +26,20 @@
         <input id="search_icon_input" type="image" alt="Søg" src="icon/search.svg">
       </div>
       <div class="book_btn_container">
-       <a class="book_btn" href="#">Book</a>
+       <a class="book_btn" href="page2.html#lejrskole_tilbud_headline">Book</a>
       </div>
    </div>
 
 </header>
 
 
-
-<nav id="overlayen" class="overlayen">
+<img id="openmenubar" src="icon/Leon_menu.svg" alt="menu" class="openmenubar">
+<div id="menuoverlayen" class="overlayen">
 	
 	
 	
-		<img src="icon/Leon_menu.svg" alt="menu" class="close-btn" id="luk">
-		
+		<img src="icon/Leon_menu.svg" alt="menu" class="lukmenubar" id="lukmenubar">
+		<nav id="navani">
 		<ul>
 			<li>
 				<a href="#">Idrætscenter <br><br><br></a>
@@ -51,7 +51,7 @@
 		</ul>
 </nav>
 
-<img id="open" src="icon/Leon_menu.svg" alt="menu" class="menu-btn">	
+    </div>	
 	
 <section>
 
@@ -247,15 +247,15 @@
 	
 	
         
-    var overlay = document.getElementById('overlayen')
+    var overlay = document.getElementById('menuoverlayen')
     var closeMenu = document.getElementById('luk')
         
-        document.getElementById('open').addEventListener('click',
+        document.getElementById('openmenubar').addEventListener('click',
         function(){
             overlay.classList.add('show-menu');
         });
         
-        document.getElementById('luk').addEventListener('click',
+        document.getElementById('lukmenubar').addEventListener('click',
         function(){
             overlay.classList.remove('show-menu');
         });

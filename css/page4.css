@@ -150,9 +150,81 @@ body, html{
 }
 
 
+.overlayen{
+    display: none;
+    position: absolute;
+    padding: 0px;
+   
+    float: left;
+    width: 10em;
+    width: 63%;
+    height: 50%;
+    text-align: center;
+    color: #fff;
+}
+.iibadeland{
+    background-color: #0e8cc4;
+    opacity: 0.95;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px #d6d6d6;
+     border: 2px solid #d6d6d6;
+}
+.infotekst{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+.infogallery{
+    width: 25%;
+    height: 20%;
+    border-radius: 15px;
+    margin: 3%;
+    opacity: 0;
+    box-shadow: 2px 2px 2px 2px #d6d6d6
+}
+
+
+.ibadeland{
+    padding-top: 7%;
+}
 
 
 
+.luk{
+    float: left;
+    width: 2em;
+    height: 2em;
+    padding-top: 1em;
+    padding-left: 1em;
+    margin: auto;
+    
+}
+
+.badeland{
+    display: block;
+    animation: infoverlay 0.5s ease-in-out forwards;
+}
+@keyframes infoverlay{
+    from{
+        opacity: 0.3;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#infogallery{
+    animation: infogallery 2s forwards ease-in;
+}
+@keyframes infogallery{
+    from{
+        transform: translateY(20%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
 .bestil {
    width: 63%;
     float: left;
@@ -172,7 +244,7 @@ body, html{
     float: left;
     width: 10em;
     border-radius: 15px;
-    height: 180px;
+    height: 203px;
     box-shadow: 2px 2px 2px 2px #d6d6d6;
     background-color: #fff;
 }
@@ -185,7 +257,7 @@ body, html{
     float: left;
     width: 19%;
     border-radius: 15px;
-    height: 185px;
+    height: 203px;
     margin-top: 30px;
     box-shadow: 2px 2px 2px 2px #d6d6d6;
     background-color: #fff;
@@ -223,6 +295,7 @@ body, html{
     background-size: cover;
     display: block;
     margin: auto;
+   
 }
 
 
@@ -298,8 +371,37 @@ body, html{
     border-top-right-radius: 13px;
 }
 
+.tirimg{
+   width: 100%;
+    height: 100px;
+    background-image:url(../img/tirpitz.jpg);
+    background-size: cover;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+
+
+
+.prisnul{
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 8px;
+    color: green;
+}
+
+.prism{
+    text-align: center;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 8px;
+    color: green;
+}
+
+
 .beskrivelse {
-  padding: 15px;
+  padding-top: 15px;
   text-align: center;
 }
 
@@ -331,8 +433,8 @@ body, html{
     background-color: #0E8CC4;
     width: 3px;
     float: right;
-    height: 114vh;
-    margin-top: -12.2%;
+    height: 134vh;
+    margin-top: -13.7%;
 
 }
 
@@ -348,7 +450,8 @@ body, html{
     font-size: 18px;
     margin-left: 5%;
     margin-right: 5%;
-    height: 100vh;
+    margin-top: 1%;
+    height: 91vh;
 }
 
 /* css til page2 og page3  */
@@ -459,11 +562,22 @@ body, html{
   padding: 0 6px;
   transition: 0.5s;
 }
+.book_text{
+    width: 100%;
+    margin: auto;
+}
+.bookpris{
+    text-align: center;
+    color: green;
+    font-size: 1.1em;
+    width: 100%;
+}
 
 .book_container:hover{
   transform: scale(1.08);
   transform-origin: bottom;
 }
+
 
 .book_text h3{
   color: #0E8CC4;
