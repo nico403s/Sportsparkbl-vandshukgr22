@@ -163,6 +163,11 @@ body, html{
     background-color: #fff;
     text-align: center;
 }
+.luk{
+    width: 1em;
+    height: 1em;
+    
+}
 
 .badeland{
     display: block;

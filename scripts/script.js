@@ -106,3 +106,7 @@ let closeMenu = document.getElementById('luk')
         function(){
             overlay.classList.add('badeland');
         });
+        document.getElementById('lukbtn').addEventListener('click',
+        function(){
+            overlay.classList.remove('badeland');
+        });
