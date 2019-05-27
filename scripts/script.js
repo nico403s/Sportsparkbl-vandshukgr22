@@ -27,13 +27,18 @@ function drag_end(event) {
     }
     }
 	droppedIn = false;
+/*forbedring*/
 
-function readDropZone() {
-
-  alert("Denne funktion er under opbygning");
+function readDropZone(){
+    for(let i=0; i < _("drop_target").children.length; i++) {
+        alert(_("drop_target").children[i].id+"Du har nu bestilt. Vi strikker et program sammen til dig. Tak fordi du bookede et ophold hos Sportspark Blaavandshuk");
+    }
+    /* Run Ajax request to pass any data to your server */
 }
 
+/*øndring i js til forbedring
 
+før var der en alert der sagde "knappen er under opbygning". nu er der blevet tilføjet et for loop, som går ind og læser dropzonens filer. dernæst når der bliver trygget på knappen book, læser den dropzonen og skriver en ny alert, nu sstår der "du har nu bestilt, Vi strikker et program sammen til dig. Tak fordi du bookede et ophold hos Sportspark Blaavandshuk.*/
 
 
 
