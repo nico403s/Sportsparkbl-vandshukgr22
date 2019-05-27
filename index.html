@@ -33,12 +33,12 @@
 </header>
 
 
-
-<nav id="overlayen" class="overlayen">
+<img id="openmenubar" src="icon/Leon_menu.svg" alt="menu" class="openmenubar">
+<nav id="menuoverlayen" class="overlayen">
 	
 	
 	
-		<img src="icon/Leon_menu.svg" alt="menu" class="close-btn" id="luk">
+		<img src="icon/Leon_menu.svg" alt="menu" class="close-btn" id="lukmenubar">
 		
 		<ul>
 			<li>
@@ -51,7 +51,7 @@
 		</ul>
 </nav>
 
-<img id="open" src="icon/Leon_menu.svg" alt="menu" class="menu-btn">	
+	
 	
 <section>
 
@@ -247,15 +247,15 @@
 	
 	
         
-    var overlay = document.getElementById('overlayen')
+    var overlay = document.getElementById('menuoverlayen')
     var closeMenu = document.getElementById('luk')
         
-        document.getElementById('open').addEventListener('click',
+        document.getElementById('openmenubar').addEventListener('click',
         function(){
             overlay.classList.add('show-menu');
         });
         
-        document.getElementById('luk').addEventListener('click',
+        document.getElementById('lukmenubar').addEventListener('click',
         function(){
             overlay.classList.remove('show-menu');
         });
