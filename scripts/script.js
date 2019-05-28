@@ -91,6 +91,7 @@ for(let i=1; i<=7; i++){
   option.value = i;
 }}
 
+if (page2Body) {
 let tl = new TimelineMax({onUpdate:updatePercentage});
 let tl2 = new TimelineMax({onUpdate:updatePercentage});
 let tl3 = new TimelineMax({onUpdate:updatePercentage});
@@ -130,7 +131,7 @@ new ScrollMagic.Scene({
 function updatePercentage() {
   tl.progress();
   tl2.progress();
-}
+}}
 
 /* Popupgalleri. Lader det være en kommentar, så det stadig kan bruges, hvis vi vil bruge det senere. Men ligenu er det ikke færdigt og derfor skal det ikke være synligt på siden ligenu.
 function badelandFunction() {

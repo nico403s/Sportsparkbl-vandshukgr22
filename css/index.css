@@ -52,7 +52,7 @@ section{
 
 .book_btn_container{
   position: absolute;
-  right: 250px;;
+  right: 250px;
   top: 10px;
 }
 
@@ -128,11 +128,13 @@ section{
  text-decoration: none;
  padding: 1rem 0;
  display: block;
- webkit-transition: background .2s ease-in-out;
- transition: background .2s ease-in-out;
  font-size: .8rem;
  font-size: 16px;
  font-family: 'Lato', sans-serif;
+}
+
+.openmenubar{
+	display: none;
 }
 
 /*-------------------- Body -----------------------*/
@@ -645,7 +647,7 @@ footer p{
 
 /*------- Til iPhone X -------*/
 @media screen and (max-width: 600px){
-	
+
 	section{
 		height: 2800px;
 	}
@@ -660,66 +662,66 @@ footer p{
         margin: 0;
         padding: 0;
     }
-	
+
 	.nav_container{
 		display: none;
 	}
-	
+
 	#videooverlaycolor{
 		height: 161px;
 		margin-top: -44%;
 	}
-	
+
 	#videooverlay{
 		margin: -30% 0 0 0;
 		width: 100%;
 		height: 100px;
 	}
-	
+
 	#videooverlay img{
 		width: 270px;
 		height: auto;
 	}
-	
+
 	#videooverlay h6{
 		margin-top: 5px;
 		font-size: 1.1em;
 	}
-	
+
 	#lejrbox{
 		width: 70%;
 		margin: 10% 15% 20% 15%;
 	}
-	
+
 	#feriebox{
 		width: 70%;
 		margin: 10% 15% 20% 15%;
 	}
-    
+
 	#aktiviteterbox{
 		width: 70%;
 		margin: 10% 15% 20% 15%;
 	}
-	
+
 	#nyhederoverskrift{
 		font-size: 2em;
 	}
-	
+
 	#quote1{
 		width: 90%;
 		margin: 70% 5% 0 5%;
 	}
-	
+
 	#quote2{
 		width: 90%;
 		margin: 10% 5% 0 5%;
 	}
-	
+
 	#quote3{
 		width: 90%;
 		margin: 10% 5% 50% 5%;
 	}
-	
+
 	#nyhed1{
 		width: 90%;
 		height: 200px;
@@ -730,7 +732,7 @@ footer p{
 		margin-top: 6%;
 		margin-bottom: 2%;
 	}
-    
+
 	.nyhed1img{
 		width: 100px;
 		height: 100px;
@@ -740,15 +742,15 @@ footer p{
 		font-size: 1.5em;
 		text-align: left;
 	}
-	
+
 	#nyhed1 h5{
 		font-size: 1.5em;
 	}
-	
+
 	#nyhed1 p{
 		display: none;
 	}
-		
+
 	#nyhed2{
 		width: 90%;
 		height: 200px;
@@ -764,15 +766,15 @@ footer p{
 		font-size: 1.5em;
 		text-align: left;
 	}
-	
+
 	#nyhed2 h5{
 		font-size: 1.5em;
 	}
-	
+
 	#nyhed2 p{
 		display: none;
 	}
-	
+
 	#nyhed3{
 		width: 90%;
 		height: 200px;
@@ -788,76 +790,76 @@ footer p{
 		font-size: 1.5em;
 		text-align: left;
 	}
-	
+
 	#nyhed3 h5{
 		font-size: 1.5em;
 	}
-	
+
 	#nyhed3 p{
 		display: none;
 	}
-	
+
 	#backgroundbox1{
 		width: 100%;
 		border-radius: 0px;
 		margin: 260% 0 0 0;
 		height: 110px;
 	}
-	
+
 	#backgroundbox2{
 		width: 100%;
 		border-radius: 0px;
 		margin: -50% 0 0 0;
 	}
-	
+
 	#vi i naturen{
 		width: 90%;
 		margin: -35% 0% -5% 5%;
 	}
-	
+
 	#naturparkvesterhavet{
 		width: 90%;
 		margin: 0 5%;
 	}
-	
+
 	footer{
 		width: 100%;
 		height: 200px;
 		margin-top: 900px;
 	}
-	
+
 	#facebooklogo{
 		margin: 5% 0 0 20%;
 	}
-	
+
 	#instagramlogo{
 		margin: 5% 0 0 57%;
 	}
-	
+
 	#kontakt1{
 		width: 45%;
 		margin: 40% 2.5% 10% 2.5%;
 	}
-	
+
 	#kontakt2{
 		width: 45%;
 		margin: 40% 2.5% 10% 2.5%;
 	}
-	
+
 	#kontakt3{
 		width: 45%;
 		margin: 5% 2.5%;
 	}
-	
+
 	#kontakt4{
 		width: 45%;
 		margin: 5% 2.5%;
 	}
-    
+
     #videooverlaycolor{
 		display: none;
 	}
-    
+
 	.openmenubar{
         display: block;
 		width: 17%;
@@ -866,12 +868,12 @@ footer p{
 		position: fixed;
 		border-bottom-right-radius: 5px;
 		border: solid 1px #FFF;
-       
+
         padding: 3%;
-        
+
         z-index: 1;
 	}
-    
+
 	.overlayen{
         display: none;
 		position: fixed;
@@ -881,7 +883,7 @@ footer p{
 		height: 150vh;
 	}
 
-	
+
 	.lukmenubar{
 		width: 17%;
 		height: auto;
@@ -892,9 +894,9 @@ footer p{
 		border: solid 1px #FFF;
         margin-top: 0%;
         padding: 3%;
-        
+
 	}
-	
+
 	ul{
 		list-style-type: none;
 		margin: 60% auto 10% auto;
@@ -902,24 +904,24 @@ footer p{
 		display: block;
 		width: 86%;
 		font-size: 1.8em;
-        
+
 	}
-	
+
 	li a{
 		text-decoration: none;
 		font-family: 'Lato', sans-serif;
 		font-weight: bold;
 		color: #FFF;
-        
+
 	}
-	
-	
+
+
 	.show-menu{
     display: block;
     animation: infoverlay 0.5s ease-in-out forwards;
     z-index: 2;
 }
-    
+
 @keyframes infoverlay{
     from{
         opacity: 0.3;
@@ -928,7 +930,7 @@ footer p{
         opacity: 1;
     }
 }
-    
+
 #navani{
     animation: infogallery 0.5s forwards ease-in;
 }
@@ -942,7 +944,7 @@ footer p{
         opacity: 1;
     }
 }
-	
+
 }
 
 /*------- burgermenu none -------*/
@@ -957,22 +959,22 @@ footer p{
 	}
 	.close-btn{
 		display: none;
-        
+
 	}
-	
+
 	ul{
 		display: none;
 	}
-	
+
 	li a{
 		display: none;
-        
+
 	}
-	
+
 	.overlayen{
 		display: none;
 	}
-	
+
 }
 
 /*----------- Ipad Pro --------------*/
@@ -1008,15 +1010,15 @@ footer p{
 	#videooverlay{
 		margin-top: -330px;
 	}
-	
+
 	#lejrbox{
 		height: 7.1%;
 	}
-	
+
 	#feriebox{
 		height: 7.1%;
 	}
-	
+
 	#aktiviteterbox{
 		height: 7.1%;
 	}
@@ -1026,52 +1028,52 @@ footer p{
 		margin-top: 6%;
 		margin-bottom: 2%;
 	}
-	
+
 	#nyhed1{
 		margin-left: 10%;
 		margin-top: 5%;
 	}
-	
+
 	.nyhed1img{
 		margin-right: 5%;
 	}
-	
+
 	#nyhed2{
 		margin-left: 10%;
 		margin-top: 5%;
 		margin-bottom: 10%;
 	}
-	
+
 	.nyhed2img{
 		margin-right: 5%;
 	}
-	
+
 	#nyhed2 p{
 		width: 65%;
 		margin-left: 40%;
 	}
-	
+
 	#nyhed3{
 		margin-left: 10%;
 		margin-top: 5%;
 	}
-	
+
 	.nyhed3img{
 		margin-right: 5%;
 	}
-	
+
 	#nyhed3 p{
 		width: 65%;
 		margin-left: 40%;
 	}
-	
+
 	#viinaturen{
 		margin-top: 15%;
 	}
-	
+
 	#naturparkvesterhavet{
 		margin-top: 16%;
 	}
-	
-	
+
+
 }
