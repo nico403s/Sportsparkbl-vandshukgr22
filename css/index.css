@@ -867,7 +867,6 @@ footer p{
 		cursor: pointer;
 		position: fixed;
 		border-bottom-right-radius: 5px;
-		border: solid 1px #FFF;
 
         padding: 3%;
 
@@ -891,7 +890,7 @@ footer p{
 		cursor: pointer;
 		position: fixed;
 		border-bottom-right-radius: 5px;
-		border: solid 1px #FFF;
+		
         margin-top: 0%;
         padding: 3%;
 
