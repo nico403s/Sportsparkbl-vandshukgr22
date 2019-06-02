@@ -673,18 +673,22 @@ footer p{
 	}
 
 	#videooverlay{
-		margin: -30% 0 0 0;
+		margin: 40% 0 0 22%;
 		width: 100%;
 		height: 100px;
+		position: absolute;
 	}
 
 	#videooverlay img{
+		margin: 200px 0 0 0;
 		width: 270px;
-		height: auto;
+		height: 100px;
+		position: absolute;
 	}
 
 	#videooverlay h6{
-		margin-top: 5px;
+		margin-left: -23%;
+		margin-top: 280px;
 		font-size: 1.1em;
 	}
 
@@ -721,16 +725,19 @@ footer p{
 		width: 90%;
 		margin: 10% 5% 50% 5%;
 	}
+	
+	#nyhederoverskrift{
+		margin-bottom: 20px;
+	}
+	
+	 #nyestebox{
+		display: none;
+	}
 
 	#nyhed1{
 		width: 90%;
 		height: 200px;
 		margin: 20% 0 0 10%;
-	}
-
-    #nyestebox{
-		margin-top: 6%;
-		margin-bottom: 2%;
 	}
 
 	.nyhed1img{
@@ -778,7 +785,7 @@ footer p{
 	#nyhed3{
 		width: 90%;
 		height: 200px;
-		margin: -15% 0 0% 10%;
+		margin: -15% 0 0% 0%;
 	}
 
 	.nyhed3img{
@@ -812,7 +819,7 @@ footer p{
 		margin: -50% 0 0 0;
 	}
 
-	#vi i naturen{
+	#viinaturen{
 		width: 90%;
 		margin: -35% 0% -5% 5%;
 	}
@@ -825,7 +832,7 @@ footer p{
 	footer{
 		width: 100%;
 		height: 200px;
-		margin-top: 900px;
+		margin-top: 1310px;
 	}
 
 	#facebooklogo{
