@@ -133,6 +133,44 @@ function updatePercentage() {
   tl2.progress();
 }}
 
+function checkRequired(){
+  let inputNavn = document.querySelector("input[name=fNavn]")
+    let inputSkolenavn = document.querySelector("input[name=skoleNavn]")
+    let inputEmail = document.querySelector("input[name=email]")
+  let navn = document.forms["bookForm"]["fNavn"].value;
+  let skole = document.forms["bookForm"]["skoleNavn"].value
+    let email = document.forms["bookForm"]["email"].value
+
+  if (navn == null || navn == "") {
+    inputNavn.style.border = "solid 2px rgba(255, 51, 51, 1)";
+    alert("Fulde navn mangler")
+    event.preventDefault();
+  }
+
+  else {
+        inputNavn.style.border = "solid 2px rgba(14, 140, 196, 0.6)";
+  }
+
+  if (skole == null || skole == "") {
+    inputSkolenavn.style.border = "solid 2px rgba(255, 51, 51, 1)";
+    alert("Skolenavn mangler")
+    event.preventDefault()
+  }
+
+  else {
+        inputSkolenavn.style.border = "solid 2px rgba(14, 140, 196, 0.6)";
+  }
+
+  if (email == null || email == "") {
+    inputEmail.style.border = "solid 2px rgba(255, 51, 51, 1)";
+    alert("Email mangler")
+    event.preventDefault()
+  }
+  else {
+        inputEmail.style.border = "solid 2px rgba(14, 140, 196, 0.6)";
+  }
+}
+
 /* Popupgalleri. Lader det være en kommentar, så det stadig kan bruges, hvis vi vil bruge det senere. Men ligenu er det ikke færdigt og derfor skal det ikke være synligt på siden ligenu.
 function badelandFunction() {
   let popupGallery = document.getElementById('gallery_popup');

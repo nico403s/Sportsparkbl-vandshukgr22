@@ -75,16 +75,16 @@
         <div class="blue_square_left">
         </div>
         <div class="booking_form_container">
-        <form class="booking_form">
-          <input type="text" placeholder="Fulde navn">
-          <input type="text" placeholder="Skole">
+        <form class="booking_form" name="bookForm">
+          <input type="text" name="fNavn" placeholder="Fulde navn">
+          <input type="text" name="skoleNavn" placeholder="Skole">
           <select id="select_antal_personer_page3">
             <option value="vaelg_antal_personer" disabled selected>Vælg antal personer</option>
           </select>
-          <input type="text" placeholder="Email">
+          <input type="text" name="email" placeholder="Email">
           <input type="text" placeholder="Emne (frivilligt)">
           <textarea name="besked_input" rows="6" cols="80" placeholder="Besked (frivilligt)"></textarea>
-          <a href="page4.html" class="form_book_btn">Book</a>
+          <a href="page4.html" class="form_book_btn" onclick="checkRequired()">Book</a>
         </form>
                 </div>
 
