@@ -674,7 +674,7 @@ footer p{
 
 	#videooverlay{
 		margin: 40% 0 0 22%;
-		width: 100%;
+		width: 78%;
 		height: 100px;
 		position: absolute;
 	}
@@ -687,7 +687,7 @@ footer p{
 	}
 
 	#videooverlay h6{
-		margin-left: -23%;
+		margin-left: -2%;
 		margin-top: 280px;
 		font-size: 1.1em;
 	}
