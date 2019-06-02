@@ -144,9 +144,9 @@ med dine elever igennem leg og sjov</p>
         <div class="blue_square_left">
         </div>
         <div class="booking_form_container">
-        <form class="booking_form">
-          <input type="text" placeholder="Fulde navn">
-          <input type="text" placeholder="Skole">
+        <form class="booking_form" name="bookForm">
+          <input type="text" name="fNavn" placeholder="Fulde navn">
+          <input type="text"name="skoleNavn" placeholder="Skole">
           <div class="antal_personer_page2_container">
           <select id="select_antal_personer_page2">
             <option value="vaelg_antal_personer" disabled selected>Vælg antal personer</option>
@@ -155,10 +155,10 @@ med dine elever igennem leg og sjov</p>
           <select id="select_antal_dage">
             <option value="vaelg_antal_dage" disabled selected>Vælg antal dage</option>
           </select>
-          <input type="text" placeholder="Email">
+          <input type="text" name="email" placeholder="Email">
           <input type="text" placeholder="Emne (frivilligt)">
           <textarea name="besked_input" rows="6" cols="80" placeholder="Besked (frivilligt)"></textarea>
-          <a class="form_book_btn" href="page4.html">Book</a>
+          <a class="form_book_btn" href="page4.html" onclick="checkRequired()">Book</a>
         </form>
                 </div>
 
