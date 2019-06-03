@@ -91,6 +91,7 @@ for(let i=1; i<=7; i++){
   option.value = i;
 }}
 
+/*
 if (page2Body) {
 let tl = new TimelineMax({onUpdate:updatePercentage});
 let tl2 = new TimelineMax({onUpdate:updatePercentage});
@@ -132,6 +133,7 @@ function updatePercentage() {
   tl.progress();
   tl2.progress();
 }}
+*/
 
 function checkRequired(){
   let inputNavn = document.querySelector("input[name=fNavn]")
