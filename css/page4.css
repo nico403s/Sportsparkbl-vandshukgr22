@@ -572,12 +572,12 @@ body, html{
     font-size: 1.1em;
     width: 100%;
 }
-
+/*
 .book_container:hover{
   transform: scale(1.08);
   transform-origin: bottom;
 }
-
+*/
 
 .book_text h3{
   color: #0E8CC4;
@@ -767,6 +767,12 @@ footer p{
 	position: absolute;
 	margin-left: 41%;
 	margin-top: 2%;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.facebooklogo:hover{
+  transform: scale(1.16);
 }
 
 .facebooklogo img{
@@ -778,6 +784,12 @@ footer p{
 	position: absolute;
 	margin-left: 53%;
 	margin-top: 2%;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.instagramlogo:hover{
+  transform: scale(1.16);
 }
 
 .instagramlogo img{
